@@ -1,0 +1,346 @@
+/* =====================================
+Theme Name: RUSH 2.0
+==================
+Table of Content
+==================
+    ~~~~~~~~~~~~~~~~~~~~~~
+    1. Common Content
+    --------------------
+        1.1- Header Section
+        1.2- Footer Section
+    ~~~~~~~~~~~~~~~~~~~~~~
+    2. Sign In Page
+    ~~~~~~~~~~~~~~~~~~~~~~
+    3. Multi Tab Page
+    --------------------
+        3.1- Profile Section
+    ~~~~~~~~~~~~~~~~~~~~~~
+===================================== */
+
+/* Google Font- "Poppins" */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* ||Common Css Start|| */
+body {
+    font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* 
+ul li {
+    display: inline-block;
+    text-decoration: none;
+} */
+:root {
+    /*color*/
+    --focus-color: #d91f26;
+    --prime-color: #fff;
+    /*transition*/
+    --first-transition: all 0.3s linear;
+    --slow-transition: all 0.4s linear;
+    /*font*/
+    --regular-f-color: #000;
+    --secondary-f-color: #949daf;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+}
+input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--secondary-f-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: var(--regular-f-color);
+    font-size: 20px;
+}
+input:focus-visible {
+    outline: none !important;
+}
+label {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--secondary-f-color);
+    padding-left: 3px;
+    padding-bottom: 5px;
+}
+/* ||Common Css End|| */
+
+/*===================== 
+Common Content Css Start 
+=====================*/
+
+/* Header Css Start */
+nav {
+    background: var(--prime-color);
+    box-shadow: 1px 7px 18px -7px rgba(0, 0, 0, 20%);
+}
+nav ul li {
+    padding: 0 20px;
+}
+nav ul li a {
+    color: var(--regular-f-color) !important;
+    transition: var(--first-transition) !important;
+    font-size: 30px;
+    font-weight: 300;
+}
+nav ul li a:hover {
+    color: var(--focus-color) !important;
+}
+nav .nav_btn {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav .nav_btn a {
+    font-size: 22px;
+    border: 2px solid var(--focus-color);
+    color: var(--focus-color);
+    text-transform: capitalize;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 8px 20px;
+    transition: var(--first-transition);
+}
+nav .nav_btn a:hover {
+    background: var(--focus-color);
+    color: var(--prime-color);
+}
+nav ul li a i {
+    color: var(--focus-color);
+}
+/* ||Header Css End|| */
+
+/* Footer Css Start */
+footer {
+    background: var(--focus-color);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+footer .footer_logo img {
+    width: 130px;
+}
+footer .footer_content {
+    padding-top: 30px;
+}
+footer .footer_content h4 {
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--prime-color);
+}
+footer .footer_navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+footer li a {
+    color: var(--prime-color);
+    transition: var(--first-transition);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+}
+footer li a:hover {
+    color: var(--prime-color);
+    padding-left: 3px;
+}
+footer .support {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    padding: 25px 0;
+}
+footer .support a {
+    color: var(--prime-color);
+    font-size: 18px;
+    font-weight: 300;
+    transition: var(--first-transition);
+}
+footer .support a i {
+    padding-right: 5px;
+}
+footer .social_media {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+footer .social_media a i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    background: var(--prime-color);
+    color: var(--focus-color);
+    font-size: 20px;
+}
+footer p {
+    color: var(--prime-color);
+    font-size: 20px;
+    font-weight: 300;
+}
+footer .border_line {
+    padding-top: 40px;
+    border-bottom: 1px solid var(--prime-color);
+    width: 100%;
+}
+footer .input_fild {
+    display: flex;
+    margin-top: 15px;
+}
+footer .input_fild .email {
+    background: transparent;
+    border: var(--prime-color) 1px solid;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 5px 0 0 5px;
+    color: var(--prime-color);
+    font-weight: 300;
+    font-size: 16px;
+}
+footer .input_fild .email::placeholder {
+    color: var(--prime-color);
+}
+footer .input_fild .submit {
+    width: fit-content;
+    background: var(--prime-color);
+    border: var(--prime-color) 1px solid;
+    padding: 15px 40px;
+    border-radius: 0 5px 5px 0;
+    color: var(--focus-color);
+    font-weight: 500;
+    font-size: 16px;
+}
+footer .payment {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+/* ||Footer Css End|| */
+
+/*===================== 
+Common Content Css End 
+=====================*/
+
+/*===================== 
+Sign In Page Css start
+=====================*/
+#sign_in {
+    padding: 100px 0;
+}
+#sign_in .sing_in_container {
+    width: 380px;
+    margin: auto;
+}
+#sign_in h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--regular-f-color);
+    padding-bottom: 10px;
+}
+#sign_in p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--secondary-f-color);
+}
+#sign_in form {
+    padding-top: 25px;
+    display: grid;
+    gap: 20px;
+}
+#sign_in form .email::placeholder {
+    display: grid;
+    align-items: center;
+}
+#sign_in form a {
+    color: var(--focus-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+#sign_in button a {
+    display: block;
+    background: var(--focus-color);
+    color: var(--prime-color);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    transition: var(--first-transition);
+}
+/*===================== 
+Sign In Page Css End 
+=====================*/
+
+/*===================== 
+Multi Tab Page Css Start 
+=====================*/
+#multi_tab {
+    padding: 80px 0;
+}
+#multi_tab .multi_tab_ul {
+    border: none;
+}
+#multi_tab .multi_tab_li button {
+    border: none;
+    background: rgba(148, 157, 175, 20%);
+    color: var(--regular-f-color);
+    border-radius: 0;
+    clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%);
+    padding: 10px 60px 10px 40px;
+    font-size: 20px;
+    transition: var(--first-transition);
+}
+#multi_tab .multi_tab_li button.active {
+    background: var(--focus-color);
+    color: var(--prime-color);
+}
+#multi_tab .multi_tab_content {
+    background: var(--prime-color);
+    padding: 40px 10px;
+    box-shadow: 1px -33px 45px -33px rgba(0, 0, 0, 20%);
+}
+
+/* Profile Css Start */
+#prof_sec .profile_head h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--regular-f-color);
+}
+#prof_sec .profile_head a {
+    font-size: 20px;
+    font-weight: 300;
+    color: blue;
+}
+/* ||Profile Css End|| */
+
+/*===================== 
+Multi Tab Page Css End 
+=====================*/
