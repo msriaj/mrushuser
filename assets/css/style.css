@@ -22,7 +22,7 @@ Table of Content
 
 /* ||Common Css Start|| */
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif, "FontAwesome";
 }
 h1,
 h2,
@@ -75,9 +75,10 @@ input {
     padding: 10px 15px;
     border-radius: 5px;
     color: var(--regular-f-color);
-    font-size: 20px;
+    font-size: 18px;
 }
-input:focus-visible {
+input:focus-visible,
+select:focus-visible {
     outline: none !important;
 }
 label {
@@ -86,6 +87,18 @@ label {
     color: var(--secondary-f-color);
     padding-left: 3px;
     padding-bottom: 5px;
+}
+select {
+    width: 100%;
+    display: block;
+    background: transparent;
+    border: 1px solid var(--secondary-f-color);
+    padding: 10px 0;
+    border-radius: 5px;
+    color: var(--regular-f-color) !important;
+    font-size: 18px;
+    text-align: center;
+    -webkit-appearance: none;
 }
 /* ||Common Css End|| */
 
@@ -310,7 +323,7 @@ Multi Tab Page Css Start
 }
 #multi_tab .multi_tab_li button {
     border: none;
-    background: rgba(148, 157, 175, 20%);
+    background: rgba(148, 157, 175, 15%);
     color: var(--regular-f-color);
     border-radius: 0;
     clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%);
@@ -329,7 +342,7 @@ Multi Tab Page Css Start
 }
 
 /* Profile Css Start */
-#prof_sec .profile_head h2 {
+#prof_sec h2 {
     font-size: 30px;
     font-weight: 600;
     color: var(--regular-f-color);
@@ -338,6 +351,35 @@ Multi Tab Page Css Start
     font-size: 20px;
     font-weight: 300;
     color: blue;
+}
+#prof_sec .profile_form {
+    display: grid;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+#prof_sec .select_opt {
+    text-align: left !important;
+    -webkit-appearance: auto !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#prof_sec .upgrade {
+    background: rgba(148, 157, 175, 15%);
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+#prof_sec .upgrade h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+#prof_sec .submit {
+    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: var(--focus-color);
+    color: var(--prime-color);
+    border: var(--focus-color) 1px solid;
 }
 /* ||Profile Css End|| */
 
