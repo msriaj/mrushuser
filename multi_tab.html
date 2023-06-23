@@ -113,6 +113,20 @@
                             Wallet
                         </button>
                     </li>
+                    <li class="nav-item multi_tab_li" role="presentation">
+                        <button
+                            class="nav-link"
+                            id="wallet-tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#wallet"
+                            type="button"
+                            role="tab"
+                            aria-controls="wallet"
+                            aria-selected="false"
+                        >
+                            Wallet
+                        </button>
+                    </li>
                 </ul>
 
                 <div class="tab-content multi_tab_content">
@@ -361,7 +375,136 @@
                         role="tabpanel"
                         aria-labelledby="wallet-tab"
                     >
-                        Wallet
+                        <!-- Wallet Section Start -->
+                        <section id="wallet_sec">
+                            <h2>Credit Wallet</h2>
+                            <ul
+                                class="d-flex justify-content-between align-items-center"
+                            >
+                                <li>
+                                    <a href=""
+                                        ><i
+                                            class="fa-regular fa-circle-dot"
+                                        ></i>
+                                        R500</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href=""
+                                        ><i class="fa-regular fa-circle"></i>
+                                        R1000</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href=""
+                                        ><i class="fa-regular fa-circle"></i>
+                                        R2000</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href=""
+                                        ><i class="fa-regular fa-circle"></i>
+                                        R5000</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href=""
+                                        ><i class="fa-regular fa-circle"></i>
+                                        R10000</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href=""
+                                        ><i class="fa-regular fa-circle"></i>
+                                        R15000</a
+                                    >
+                                </li>
+                            </ul>
+                            <div class="wallet_btn pt-4 pb-5">
+                                <button><a href="">Share wallet</a></button>
+                                <button><a href="">Credit Wallet</a></button>
+                            </div>
+
+                            <h2 class="pt-4">Transaction History</h2>
+
+                            <div class="wallet-table">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">
+                                                Transaction Date & Time
+                                            </th>
+                                            <th scope="col">
+                                                Transaction Type
+                                            </th>
+                                            <th scope="col">Amount</th>
+                                            <th scope="col">Used By</th>
+                                            <th scope="col">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="table-light">
+                                            <td scope="row">
+                                                28 Sep 2021, 10:18
+                                            </td>
+                                            <td>
+                                                Collected from original address
+                                            </td>
+                                            <td>1 of 1</td>
+                                            <td>Mike</td>
+                                            <td>
+                                                <button>
+                                                    <a class="pending"
+                                                        >Pending</a
+                                                    >
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-secondary">
+                                            <td scope="row">
+                                                28 Sep 2021, 10:18
+                                            </td>
+                                            <td>
+                                                Collected from original address
+                                            </td>
+                                            <td>1 of 1</td>
+                                            <td>Mike</td>
+                                            <td>
+                                                <button>
+                                                    <a class="success"
+                                                        >Success</a
+                                                    >
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-light">
+                                            <td scope="row">
+                                                28 Sep 2021, 10:18
+                                            </td>
+                                            <td>
+                                                Collected from original address
+                                            </td>
+                                            <td>1 of 1</td>
+                                            <td>Mike</td>
+                                            <td>
+                                                <button>
+                                                    <a href="">Pay</a>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                        <!-- ||Wallet Section End|| -->
+                    </div>
+                    <div
+                        class="tab-pane"
+                        id="wallet"
+                        role="tabpanel"
+                        aria-labelledby="wallet-tab"
+                    >
+                        ami
                     </div>
                 </div>
             </div>

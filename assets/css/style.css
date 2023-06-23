@@ -14,6 +14,7 @@ Table of Content
     3. Multi Tab Page
     --------------------
         3.1- Profile Section
+        3.2- Wallet Section
     ~~~~~~~~~~~~~~~~~~~~~~
 ===================================== */
 
@@ -23,6 +24,7 @@ Table of Content
 /* ||Common Css Start|| */
 body {
     font-family: "Poppins", sans-serif, "FontAwesome";
+    margin: 0;
 }
 h1,
 h2,
@@ -44,11 +46,9 @@ ul {
     padding: 0;
     margin: 0;
 }
-/* 
-ul li {
-    display: inline-block;
-    text-decoration: none;
-} */
+.containe {
+    padding: 0 50px;
+}
 :root {
     /*color*/
     --focus-color: #d91f26;
@@ -59,6 +59,13 @@ ul li {
     /*font*/
     --regular-f-color: #000;
     --secondary-f-color: #949daf;
+}
+
+.text_center {
+    text-align: center;
+}
+.text_end {
+    text-align: right;
 }
 
 button {
@@ -90,7 +97,6 @@ label {
 }
 select {
     width: 100%;
-    display: block;
     background: transparent;
     border: 1px solid var(--secondary-f-color);
     padding: 10px 0;
@@ -107,30 +113,42 @@ Common Content Css Start
 =====================*/
 
 /* Header Css Start */
-nav {
+header {
     background: var(--prime-color);
     box-shadow: 1px 7px 18px -7px rgba(0, 0, 0, 20%);
+    padding: 0 50px;
 }
-nav ul li {
-    padding: 0 20px;
+header #nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
-nav ul li a {
-    color: var(--regular-f-color) !important;
-    transition: var(--first-transition) !important;
-    font-size: 30px;
+header #nav_bar ul {
+    display: flex;
+    gap: 25px;
+}
+header #nav_bar ul li {
+    display: inline-block;
+}
+
+header #nav_bar ul li a {
+    color: var(--regular-f-color);
+    transition: var(--first-transition);
+    font-size: 25px;
     font-weight: 300;
 }
-nav ul li a:hover {
-    color: var(--focus-color) !important;
+header #nav_bar ul li a:hover {
+    color: var(--focus-color);
 }
-nav .nav_btn {
+header #nav_bar .nav_btn {
     padding-left: 20px;
     display: flex;
     align-items: center;
     gap: 20px;
 }
-nav .nav_btn a {
-    font-size: 22px;
+header #nav_bar .nav_btn a {
+    font-size: 20px;
     border: 2px solid var(--focus-color);
     color: var(--focus-color);
     text-transform: capitalize;
@@ -139,11 +157,11 @@ nav .nav_btn a {
     padding: 8px 20px;
     transition: var(--first-transition);
 }
-nav .nav_btn a:hover {
+header #nav_bar .nav_btn a:hover {
     background: var(--focus-color);
     color: var(--prime-color);
 }
-nav ul li a i {
+header #nav_bar ul li a i {
     color: var(--focus-color);
 }
 /* ||Header Css End|| */
@@ -156,6 +174,11 @@ footer {
 }
 footer .footer_logo img {
     width: 130px;
+}
+footer .footer_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
 footer .footer_content {
     padding-top: 30px;
@@ -271,6 +294,7 @@ Sign In Page Css start
 }
 #sign_in .sing_in_container {
     width: 380px;
+    overflow: hidden;
     margin: auto;
 }
 #sign_in h2 {
@@ -289,6 +313,18 @@ Sign In Page Css start
     display: grid;
     gap: 20px;
 }
+
+#sign_in form input {
+    display: block;
+    width: 91% !important;
+    background: transparent;
+    border: 1px solid var(--secondary-f-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: var(--regular-f-color);
+    font-size: 18px;
+}
+
 #sign_in form .email::placeholder {
     display: grid;
     align-items: center;
@@ -342,7 +378,7 @@ Multi Tab Page Css Start
 }
 
 /* Profile Css Start */
-#prof_sec h2 {
+#multi_tab h2 {
     font-size: 30px;
     font-weight: 600;
     color: var(--regular-f-color);
@@ -382,6 +418,85 @@ Multi Tab Page Css Start
     border: var(--focus-color) 1px solid;
 }
 /* ||Profile Css End|| */
+
+/* Wallet Css Start */
+#wallet_sec ul {
+    border: 1px solid var(--secondary-f-color);
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+#wallet_sec ul li a {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--regular-f-color);
+}
+#wallet_sec .wallet_btn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+#wallet_sec .wallet_btn a {
+    font-size: 22px;
+    border: 2px solid var(--focus-color);
+    color: var(--focus-color);
+    text-transform: capitalize;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 8px 20px;
+    transition: var(--first-transition);
+}
+#wallet_sec .wallet_btn a:hover {
+    background: var(--focus-color);
+    color: var(--prime-color);
+}
+#wallet_sec .wallet-table .table {
+    margin-top: 30px;
+    border: none;
+}
+#wallet_sec .wallet-table .table thead {
+    background: var(--focus-color);
+    color: var(--prime-color);
+}
+.wallet-table .table th {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px;
+}
+.wallet-table .table td {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 15px;
+}
+.wallet-table .table button a {
+    background-color: rgba(217, 31, 38, 30%);
+    color: var(--focus-color);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.wallet-table .table button a {
+    background-color: rgba(217, 31, 38, 30%);
+    color: var(--focus-color);
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: var(--first-transition);
+}
+.wallet-table .table button a:hover {
+    background-color: rgba(217, 31, 38, 90%);
+    color: var(--prime-color);
+}
+.wallet-table .table button a.success {
+    background-color: rgba(5, 142, 11, 30%);
+    color: #058e0b;
+    cursor: not-allowed;
+}
+.wallet-table .table button a.pending {
+    background-color: rgba(217, 111, 4, 30%);
+    cursor: wait;
+    color: #d96f04;
+}
+/* ||Wallet Css End|| */
 
 /*===================== 
 Multi Tab Page Css End 

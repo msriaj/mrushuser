@@ -17,13 +17,6 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         />
-        <!-- Bootstrap CDN Link -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-            crossorigin="anonymous"
-        />
         <!-- Custom CSS File -->
         <link rel="stylesheet" href="assets/css/style.css" />
         <!--==================================================================-->
@@ -32,60 +25,41 @@
     </head>
     <body>
         <!-- Header Section Start -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid px-5 py-2">
-                <a class="navbar-brand" href="index.html"
-                    ><img src="assets/images/logo-red.png" alt=""
-                /></a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                    class="collapse navbar-collapse"
-                    id="navbarSupportedContent"
-                >
-                    <ul
-                        class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-center"
-                    >
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Rush Business</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Rush E-commerce</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Track Parcel</a>
-                        </li>
+        <header>
+            <div id="nav_bar">
+                <a class="logo" href="index.html">
+                    <img src="assets/images/logo-red.png" alt="" />
+                </a>
 
-                        <div class="nav_btn">
-                            <button><a href="signin.html">Sign in</a></button>
-                            <button><a href="">Register</a></button>
-                        </div>
+                <ul>
+                    <li>
+                        <a href="#">Rush Business</a>
+                    </li>
+                    <li>
+                        <a href="#">Rush E-commerce</a>
+                    </li>
+                    <li>
+                        <a href="#">Track Parcel</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"
-                                ><i class="fa-solid fa-bars"></i
-                            ></a>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="nav_btn">
+                        <button><a href="signin.html">Sign in</a></button>
+                        <button><a href="">Register</a></button>
+                    </div>
+
+                    <li>
+                        <a href="#"><i class="fa-solid fa-bars"></i></a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </header>
         <!-- ||Header Section End|| -->
 
         <!-- Sign In Section Start -->
         <section id="sign_in">
-            <div class="container-fluid px-5">
+            <div class="containe">
                 <div class="sing_in_container">
-                    <div class="text-center">
+                    <div class="text_center">
                         <h2>Sing In</h2>
                         <p>Sign in to start using Rush services</p>
                     </div>
@@ -96,6 +70,7 @@
                                 type="email"
                                 class="email"
                                 placeholder="&#xf0e0;"
+                                style="font-family: Poppins, FontAwesome"
                             />
                         </div>
                         <div class="form_item">
@@ -104,12 +79,13 @@
                                 type="password"
                                 class="password"
                                 placeholder="&#xf023;"
+                                style="font-family: Poppins, FontAwesome"
                             />
                         </div>
-                        <a href="" class="text-end">Forgot password?</a>
+                        <a href="" class="text_end">Forgot password?</a>
                         <button><a href="multi_tab.html">Sign In</a></button>
-                        <p class="text-center">Don’t have an account?</p>
-                        <a href="signup.html" class="text-center">Sign Up</a>
+                        <p class="text_center">Don’t have an account?</p>
+                        <a href="signup.html" class="text_center">Sign Up</a>
                     </form>
                 </div>
             </div>
@@ -118,115 +94,106 @@
 
         <!-- Footer Section Start -->
         <footer>
-            <div class="container-fluid px-5">
+            <div class="containe">
                 <div class="footer_logo">
                     <a href="index.html"
                         ><img src="assets/images/logo.png" alt=""
                     /></a>
                 </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="footer_content">
-                            <h4>Company</h4>
-                            <div class="footer_navigation">
-                                <ul>
-                                    <li><a href="">Home</a></li>
-                                    <li><a href="signin.html">Sign In</a></li>
-                                    <li><a href="">Register</a></li>
-                                    <li><a href="">My Profile</a></li>
-                                    <li><a href="">New Order</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="">Track Parcel</a></li>
-                                    <li><a href="">Contact Us</a></li>
-                                    <li><a href="">Rush Business</a></li>
-                                    <li><a href="">Rush Ecommerce</a></li>
-                                    <li><a href="">Packing Guidelines</a></li>
-                                </ul>
-                                <ul>
-                                    <li>
-                                        <a href="">International Shipping</a>
-                                    </li>
-                                    <li><a href="">FAQ</a></li>
-                                    <li><a href="">News</a></li>
-                                    <li><a href="">Basket</a></li>
-                                    <li><a href="">Terms & Conditions</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="footer_content">
-                            <h4>Company Details</h4>
+                <div class="footer_container">
+                    <div class="footer_content">
+                        <h4>Company</h4>
+                        <div class="footer_navigation">
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="signin.html">Sign In</a></li>
+                                <li><a href="">Register</a></li>
+                                <li><a href="">My Profile</a></li>
+                                <li><a href="">New Order</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">Track Parcel</a></li>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Rush Business</a></li>
+                                <li><a href="">Rush Ecommerce</a></li>
+                                <li><a href="">Packing Guidelines</a></li>
+                            </ul>
                             <ul>
                                 <li>
-                                    <a href=""
-                                        >Operating hours for customer service<br />
-                                        Monday to Friday 08:00AM - 05:00PM</a
-                                    >
+                                    <a href="">International Shipping</a>
                                 </li>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">News</a></li>
+                                <li><a href="">Basket</a></li>
+                                <li><a href="">Terms & Conditions</a></li>
                             </ul>
-                            <div class="support">
-                                <a href="mailto: support@rush.co.za"
-                                    ><i class="fa-solid fa-envelope"></i>
-                                    support@rush.co.za</a
-                                >
-                                <a href="tel:010 444 0002"
-                                    ><i class="fa-solid fa-phone-volume"></i>
-                                    010 444 0002</a
-                                >
-                                <a href="tel:087 057 3900"
-                                    ><i class="fa-solid fa-phone-volume"></i>
-
-                                    087 057 3900</a
-                                >
-                            </div>
-                            <div class="social_media">
-                                <a href=""
-                                    ><i class="fa-brands fa-facebook-f"></i
-                                ></a>
-                                <a href=""
-                                    ><i class="fa-brands fa-twitter"></i
-                                ></a>
-                                <a href=""
-                                    ><i class="fa-brands fa-linkedin-in"></i
-                                ></a>
-                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="footer_content">
-                            <h4>Newsletter</h4>
-                            <p>Please subscribe to our newsletter</p>
+                    <div class="footer_content">
+                        <h4>Company Details</h4>
+                        <ul>
+                            <li>
+                                <a href=""
+                                    >Operating hours for customer service<br />
+                                    Monday to Friday 08:00AM - 05:00PM</a
+                                >
+                            </li>
+                        </ul>
+                        <div class="support">
+                            <a href="mailto: support@rush.co.za"
+                                ><i class="fa-solid fa-envelope"></i>
+                                support@rush.co.za</a
+                            >
+                            <a href="tel:010 444 0002"
+                                ><i class="fa-solid fa-phone-volume"></i> 010
+                                444 0002</a
+                            >
+                            <a href="tel:087 057 3900"
+                                ><i class="fa-solid fa-phone-volume"></i>
 
-                            <form class="input_fild">
-                                <input
-                                    type="email"
-                                    class="email"
-                                    placeholder="Email Address"
-                                />
-                                <input
-                                    type="submit"
-                                    value="Subscribe"
-                                    class="submit"
-                                />
-                            </form>
+                                087 057 3900</a
+                            >
+                        </div>
+                        <div class="social_media">
+                            <a href=""
+                                ><i class="fa-brands fa-facebook-f"></i
+                            ></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""
+                                ><i class="fa-brands fa-linkedin-in"></i
+                            ></a>
+                        </div>
+                    </div>
 
-                            <div class="payment">
-                                <a href=""
-                                    ><img src="assets/images/visa.png" alt=""
-                                /></a>
-                                <a href=""
-                                    ><img
-                                        src="assets/images/mastercard-4.png"
-                                        alt=""
-                                /></a>
-                                <a href=""
-                                    ><img
-                                        src="assets/images/paypal-2.png"
-                                        alt=""
-                                /></a>
-                            </div>
+                    <div class="footer_content">
+                        <h4>Newsletter</h4>
+                        <p>Please subscribe to our newsletter</p>
+
+                        <form class="input_fild">
+                            <input
+                                type="email"
+                                class="email"
+                                placeholder="Email Address"
+                            />
+                            <input
+                                type="submit"
+                                value="Subscribe"
+                                class="submit"
+                            />
+                        </form>
+
+                        <div class="payment">
+                            <a href=""
+                                ><img src="assets/images/visa.png" alt=""
+                            /></a>
+                            <a href=""
+                                ><img
+                                    src="assets/images/mastercard-4.png"
+                                    alt=""
+                            /></a>
+                            <a href=""
+                                ><img src="assets/images/paypal-2.png" alt=""
+                            /></a>
                         </div>
                     </div>
                 </div>
@@ -234,14 +201,5 @@
             </div>
         </footer>
         <!-- ||Footer Section End|| -->
-        <!--==================================================================-->
-        <!-- Bootstrap js CDN Start -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"
-        ></script>
-        <!-- ||Bootstrap js CDN End|| -->
-        <!--==================================================================-->
     </body>
 </html>
