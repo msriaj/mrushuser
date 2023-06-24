@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="assets/css/style.css" />
         <!--==================================================================-->
 
-        <title>RUSH 2.0- Sign In</title>
+        <title>RUSH 2.0- Order</title>
     </head>
     <body>
         <!-- Header Section Start -->
@@ -42,9 +42,9 @@
                         <a href="#">Track Parcel</a>
                     </li>
 
-                    <div class="nav_btn">
-                        <button><a href="signin.html">Sign in</a></button>
-                        <button><a href="">Register</a></button>
+                    <div class="nav_btn common_btn">
+                        <button><a href="sign_in.html">Sign in</a></button>
+                        <button><a href="register.html">Register</a></button>
                     </div>
 
                     <li>
@@ -55,46 +55,137 @@
         </header>
         <!-- ||Header Section End|| -->
 
-        <!-- Sign In Section Start -->
-        <section id="sign_in">
-            <div class="containe">
-                <div class="sing_in_container">
-                    <div class="text_center">
-                        <h2>Sing In</h2>
-                        <p>Sign in to start using Rush services</p>
-                    </div>
-                    <form class="sign_in_form">
-                        <div class="form_item">
-                            <label for="">Email</label>
-                            <input
-                                type="email"
-                                class="email"
-                                placeholder="&#xf0e0;"
-                                style="font-family: Poppins, FontAwesome"
-                            />
-                        </div>
-                        <div class="form_item">
-                            <label for="">Password</label>
-                            <input
-                                type="password"
-                                class="password"
-                                placeholder="&#xf023;"
-                                style="font-family: Poppins, FontAwesome"
-                            />
-                        </div>
-                        <a href="" class="text_end">Forgot password?</a>
-                        <button><a href="multi_tab.html">Sign In</a></button>
-                        <p class="text_center">Don’t have an account?</p>
-                        <a href="signup.html" class="text_center">Sign Up</a>
-                    </form>
-                </div>
+        <!-- Malty Nav Section Start -->
+        <section id="navigation">
+            <div class="container">
+                <ul>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="wallet.html">Wallet</a></li>
+                    <li>
+                        <a href="order_history.html" class="active"
+                            >Order History</a
+                        >
+                    </li>
+                    <li><a href="">Address Book</a></li>
+                    <li><a href="">New Order</a></li>
+                </ul>
             </div>
         </section>
-        <!-- ||Sign In Section End|| -->
+        <!-- ||Malty Nav Section End|| -->
+
+        <!-- Profile Section Start -->
+        <section id="wallet">
+            <div class="container">
+                <p class="order_p">
+                    Your waller Balance is <strong>R450.00</strong>
+                </p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Purchase Date</th>
+                            <th>Waybill</th>
+                            <th>Purchase Date</th>
+                            <th>Total Cost</th>
+                            <th>Download Waybill</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="odd">
+                            <td>123456</td>
+                            <td>ABCD1234</td>
+                            <td>04 October 2021</td>
+                            <td>R100.05</td>
+                            <td>
+                                <i class="fa-solid fa-download"></i>
+                            </td>
+                            <td>Expand</td>
+                        </tr>
+                        <tr class="odd">
+                            <td colspan="6">
+                                <div class="resed">
+                                    <div class="resed_item">
+                                        <p>Order #</p>
+                                        <h6>123456789</h6>
+                                    </div>
+                                    <div class="resed_item">
+                                        <p>Courier Details</p>
+                                        <h6>The Courier Guy</h6>
+                                    </div>
+                                    <div class="resed_item bottom_a">
+                                        <h6>Price</h6>
+                                        <h6>R100.05</h6>
+                                    </div>
+                                </div>
+                                <div class="order_btn">
+                                    <div class="common_btn">
+                                        <button>
+                                            <a href="">Share wallet</a>
+                                        </button>
+                                        <button>
+                                            <a href="">Credit Wallet</a>
+                                        </button>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="even">
+                            <td>123456</td>
+                            <td>ABCD1234</td>
+                            <td>04 October 2021</td>
+                            <td>R100.05</td>
+                            <td>
+                                <i class="fa-solid fa-download"></i>
+                            </td>
+                            <td>Expand</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>123456</td>
+                            <td>ABCD1234</td>
+                            <td>04 October 2021</td>
+                            <td>R100.05</td>
+                            <td>
+                                <i class="fa-solid fa-download"></i>
+                            </td>
+                            <td>Expand</td>
+                        </tr>
+                        <tr class="even">
+                            <td>123456</td>
+                            <td>ABCD1234</td>
+                            <td>04 October 2021</td>
+                            <td>R100.05</td>
+                            <td>
+                                <i class="fa-solid fa-download"></i>
+                            </td>
+                            <td>Expand</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>123456</td>
+                            <td>ABCD1234</td>
+                            <td>04 October 2021</td>
+                            <td>R100.05</td>
+                            <td>
+                                <i class="fa-solid fa-download"></i>
+                            </td>
+                            <td>Expand</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <!-- ||Profile Section End|| -->
 
         <!-- Footer Section Start -->
         <footer>
-            <div class="containe">
+            <div class="container">
                 <div class="footer_logo">
                     <a href="index.html"
                         ><img src="assets/images/logo.png" alt=""
@@ -105,9 +196,9 @@
                         <h4>Company</h4>
                         <div class="footer_navigation">
                             <ul>
-                                <li><a href="">Home</a></li>
-                                <li><a href="signin.html">Sign In</a></li>
-                                <li><a href="">Register</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="sign_in.html">Sign In</a></li>
+                                <li><a href="register.html">Register</a></li>
                                 <li><a href="">My Profile</a></li>
                                 <li><a href="">New Order</a></li>
                             </ul>

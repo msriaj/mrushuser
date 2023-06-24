@@ -11,10 +11,17 @@ Table of Content
     ~~~~~~~~~~~~~~~~~~~~~~
     2. Sign In Page
     ~~~~~~~~~~~~~~~~~~~~~~
-    3. Multi Tab Page
+    3. Register Page
+    ~~~~~~~~~~~~~~~~~~~~~~
+    4. Profile Page
     --------------------
-        3.1- Profile Section
-        3.2- Wallet Section
+        4.1- Malty Nav Section
+        4.1- Profile Section
+    ~~~~~~~~~~~~~~~~~~~~~~
+    5. Wallet Page
+    --------------------
+        5.1- Malty Nav Section
+        5.1- Wallet Section
     ~~~~~~~~~~~~~~~~~~~~~~
 ===================================== */
 
@@ -46,8 +53,8 @@ ul {
     padding: 0;
     margin: 0;
 }
-.containe {
-    padding: 0 50px;
+.container {
+    margin: 0 50px;
 }
 :root {
     /*color*/
@@ -76,10 +83,14 @@ button {
     padding: 0;
 }
 input {
-    width: 100%;
+    width: 98%;
+    margin: 0;
+    padding: 0;
+    outline: 0;
     background: transparent;
     border: 1px solid var(--secondary-f-color);
-    padding: 10px 15px;
+    padding: 10px 5px 10px 10px;
+    padding-right: -100px;
     border-radius: 5px;
     color: var(--regular-f-color);
     font-size: 18px;
@@ -89,6 +100,7 @@ select:focus-visible {
     outline: none !important;
 }
 label {
+    display: block;
     font-size: 18px;
     font-weight: 400;
     color: var(--secondary-f-color);
@@ -96,15 +108,37 @@ label {
     padding-bottom: 5px;
 }
 select {
-    width: 100%;
+    width: fit-content;
+    display: block;
     background: transparent;
     border: 1px solid var(--secondary-f-color);
-    padding: 10px 0;
+    padding: 10px 20px;
     border-radius: 5px;
     color: var(--regular-f-color) !important;
     font-size: 18px;
     text-align: center;
     -webkit-appearance: none;
+}
+
+.common_btn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+.common_btn a {
+    font-size: 20px;
+    border: 2px solid var(--focus-color);
+    color: var(--focus-color);
+    text-transform: capitalize;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 8px 20px;
+    transition: var(--first-transition);
+}
+.common_btn a:hover {
+    background: var(--focus-color);
+    color: var(--prime-color);
 }
 /* ||Common Css End|| */
 
@@ -143,23 +177,6 @@ header #nav_bar ul li a:hover {
 }
 header #nav_bar .nav_btn {
     padding-left: 20px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-header #nav_bar .nav_btn a {
-    font-size: 20px;
-    border: 2px solid var(--focus-color);
-    color: var(--focus-color);
-    text-transform: capitalize;
-    font-weight: 400;
-    border-radius: 5px;
-    padding: 8px 20px;
-    transition: var(--first-transition);
-}
-header #nav_bar .nav_btn a:hover {
-    background: var(--focus-color);
-    color: var(--prime-color);
 }
 header #nav_bar ul li a i {
     color: var(--focus-color);
@@ -289,7 +306,8 @@ Common Content Css End
 /*===================== 
 Sign In Page Css start
 =====================*/
-#sign_in {
+#sign_in,
+#register {
     padding: 100px 0;
 }
 #sign_in .sing_in_container {
@@ -315,14 +333,7 @@ Sign In Page Css start
 }
 
 #sign_in form input {
-    display: block;
     width: 91% !important;
-    background: transparent;
-    border: 1px solid var(--secondary-f-color);
-    padding: 10px 15px;
-    border-radius: 5px;
-    color: var(--regular-f-color);
-    font-size: 18px;
 }
 
 #sign_in form .email::placeholder {
@@ -347,69 +358,83 @@ Sign In Page Css start
 /*===================== 
 Sign In Page Css End 
 =====================*/
-
-/*===================== 
-Multi Tab Page Css Start 
-=====================*/
-#multi_tab {
-    padding: 80px 0;
+#navigation {
+    padding: 80px 0 40px 0;
 }
-#multi_tab .multi_tab_ul {
-    border: none;
+#navigation ul li {
+    display: inline;
 }
-#multi_tab .multi_tab_li button {
-    border: none;
+#navigation ul li a {
     background: rgba(148, 157, 175, 15%);
     color: var(--regular-f-color);
-    border-radius: 0;
+    padding: 12px 35px 12px 25px;
     clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%);
-    padding: 10px 60px 10px 40px;
     font-size: 20px;
-    transition: var(--first-transition);
+    font-weight: 400;
 }
-#multi_tab .multi_tab_li button.active {
+#navigation ul li a.active {
     background: var(--focus-color);
     color: var(--prime-color);
 }
-#multi_tab .multi_tab_content {
-    background: var(--prime-color);
-    padding: 40px 10px;
-    box-shadow: 1px -33px 45px -33px rgba(0, 0, 0, 20%);
+/*===================== 
+Profile Page Css Start 
+=====================*/
+#profile,
+#wallet {
+    padding-bottom: 80px;
 }
-
-/* Profile Css Start */
-#multi_tab h2 {
+.malty_form {
+    display: grid;
+    gap: 25px;
+}
+.malty_form .profile_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile_header h2 {
     font-size: 30px;
     font-weight: 600;
     color: var(--regular-f-color);
 }
-#prof_sec .profile_head a {
+.profile_header a {
     font-size: 20px;
     font-weight: 300;
     color: blue;
 }
-#prof_sec .profile_form {
+.malty_form .double {
     display: grid;
-    gap: 20px;
-    padding-bottom: 30px;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
 }
-#prof_sec .select_opt {
-    text-align: left !important;
+.malty_form .form_data .dual {
+    display: flex;
+    gap: 10px;
+}
+.malty_form .form_data .form_item {
+    width: 100%;
+}
+.malty_form .input-fild-from {
+    width: 100%;
+    text-align: left;
     -webkit-appearance: auto !important;
-    padding-left: 15px;
-    padding-right: 15px;
 }
-
-#prof_sec .upgrade {
+.malty_form .single {
+    width: 99%;
+}
+.malty_form .upgrade {
     background: rgba(148, 157, 175, 15%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 15px 25px;
     border-radius: 5px;
 }
-#prof_sec .upgrade h5 {
+.malty_form .upgrade h5 {
     font-size: 20px;
     font-weight: 400;
 }
-#prof_sec .submit {
+.malty_form .submit {
     width: fit-content;
     padding-left: 30px;
     padding-right: 30px;
@@ -417,87 +442,135 @@ Multi Tab Page Css Start
     color: var(--prime-color);
     border: var(--focus-color) 1px solid;
 }
-/* ||Profile Css End|| */
+.malty_form .checked {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.malty_form .checked input,
+.wallet_radio {
+    width: fit-content;
+    display: inline;
+}
+/*===================== 
+Profile Page Css End 
+=====================*/
 
-/* Wallet Css Start */
-#wallet_sec ul {
+/*===================== 
+Wallet Page Css Start
+=====================*/
+#wallet ul {
     border: 1px solid var(--secondary-f-color);
     padding: 20px 40px;
     border-radius: 5px;
-    margin: 25px 0;
+    margin: 25px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
-#wallet_sec ul li a {
+#wallet ul li a {
     font-size: 20px;
     font-weight: 300;
     color: var(--regular-f-color);
 }
-#wallet_sec .wallet_btn {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    gap: 20px;
+#wallet .wallet_head {
+    padding: 40px 0;
 }
-#wallet_sec .wallet_btn a {
-    font-size: 22px;
-    border: 2px solid var(--focus-color);
-    color: var(--focus-color);
-    text-transform: capitalize;
-    font-weight: 400;
-    border-radius: 5px;
+#wallet table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#wallet table thead {
+    background: var(--focus-color);
+    color: var(--prime-color);
+}
+#wallet table thead th,
+#wallet table tbody td {
+    padding: 14px 20px;
+    text-align: left;
+}
+
+#wallet table tbody tr.odd {
+    background: rgba(148, 157, 175, 15%);
+}
+#wallet table tbody tr.even {
+    background: rgba(148, 157, 175, 30%);
+}
+
+#wallet .wallet_table button a {
     padding: 8px 20px;
-    transition: var(--first-transition);
-}
-#wallet_sec .wallet_btn a:hover {
-    background: var(--focus-color);
-    color: var(--prime-color);
-}
-#wallet_sec .wallet-table .table {
-    margin-top: 30px;
-    border: none;
-}
-#wallet_sec .wallet-table .table thead {
-    background: var(--focus-color);
-    color: var(--prime-color);
-}
-.wallet-table .table th {
-    font-size: 18px;
-    font-weight: 500;
-    padding: 15px;
-}
-.wallet-table .table td {
-    font-size: 17px;
-    font-weight: 400;
-    padding: 15px;
-}
-.wallet-table .table button a {
-    background-color: rgba(217, 31, 38, 30%);
-    color: var(--focus-color);
-    padding: 5px 20px;
     border-radius: 5px;
+    font-size: 16px;
 }
-.wallet-table .table button a {
-    background-color: rgba(217, 31, 38, 30%);
-    color: var(--focus-color);
-    padding: 5px 20px;
-    border-radius: 5px;
-    transition: var(--first-transition);
+a.pending {
+    background-color: rgba(217, 111, 4, 40%);
+    cursor: wait;
+    color: #f54e00;
 }
-.wallet-table .table button a:hover {
-    background-color: rgba(217, 31, 38, 90%);
-    color: var(--prime-color);
-}
-.wallet-table .table button a.success {
+a.success {
     background-color: rgba(5, 142, 11, 30%);
     color: #058e0b;
     cursor: not-allowed;
 }
-.wallet-table .table button a.pending {
-    background-color: rgba(217, 111, 4, 30%);
-    cursor: wait;
-    color: #d96f04;
+a.pay {
+    background-color: rgba(217, 31, 38, 30%);
+    color: var(--focus-color);
+    transition: var(--first-transition);
 }
-/* ||Wallet Css End|| */
+a.pay:hover {
+    background-color: rgba(217, 31, 38, 90%);
+    color: var(--prime-color);
+}
+.resed {
+    background: var(--prime-color);
+    margin: 20px 30px;
+    padding: 20px;
+    border-radius: 5px;
+    border: var(--secondary-f-color) 1px solid;
+}
+.resed .resed_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: var(--secondary-f-color) 1px solid;
+}
 
+.resed .resed_item h6 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--regular-f-color);
+}
+.resed .resed_item.bottom_a {
+    border: transparent;
+    padding: 15px 0;
+}
+.resed .resed_item.bottom_a h6 {
+    color: var(--focus-color);
+}
+.order_btn {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order_btn .common_btn {
+    justify-content: left;
+}
+.order_btn .rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    color: rgb(255, 145, 0);
+}
+.order_p {
+    padding-bottom: 30px;
+}
+.order_p strong {
+    color: var(--focus-color);
+}
 /*===================== 
-Multi Tab Page Css End 
+Wallet Page Css End 
 =====================*/

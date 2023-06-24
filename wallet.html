@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="assets/css/style.css" />
         <!--==================================================================-->
 
-        <title>RUSH 2.0</title>
+        <title>RUSH 2.0- Wallet</title>
     </head>
     <body>
         <!-- Header Section Start -->
@@ -55,7 +55,118 @@
         </header>
         <!-- ||Header Section End|| -->
 
-        <h2 class="text_center">HOME PAGE</h2>
+        <!-- Malty Nav Section Start -->
+        <section id="navigation">
+            <div class="container">
+                <ul>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="wallet.html" class="active">Wallet</a></li>
+                    <li><a href="order_history.html">Order History</a></li>
+                    <li><a href="">Address Book</a></li>
+                    <li><a href="">New Order</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- ||Malty Nav Section End|| -->
+
+        <!-- Profile Section Start -->
+        <section id="wallet">
+            <div class="container">
+                <div class="profile_header">
+                    <h2>Credit Wallet</h2>
+                </div>
+
+                <ul class="wallet_price">
+                    <li>
+                        <a>
+                            <input class="wallet_radio" type="radio" /> R500
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <input class="wallet_radio" type="radio" /> R1000
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <input class="wallet_radio" type="radio" /> R2000
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <input class="wallet_radio" type="radio" /> R5000
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <input class="wallet_radio" type="radio" /> R10000
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <input class="wallet_radio" type="radio" /> R15000
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="common_btn">
+                    <button><a href="">Share wallet</a></button>
+                    <button><a href="">Credit Wallet</a></button>
+                </div>
+
+                <div class="profile_header wallet_head">
+                    <h2>Transaction History</h2>
+                </div>
+
+                <table class="wallet_table">
+                    <thead>
+                        <tr>
+                            <th>Transaction Date & Time</th>
+                            <th>Transaction Type</th>
+                            <th>Amount</th>
+                            <th>Used By</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="odd">
+                            <td>28 Sep 2021, 10:18</td>
+                            <td>Collected from original address</td>
+                            <td>1 of 1</td>
+                            <td>Mike</td>
+                            <td>
+                                <button>
+                                    <a class="pending">Pending</a>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr class="even">
+                            <td>28 Sep 2021, 10:18</td>
+                            <td>Collected from original address</td>
+                            <td>1 of 1</td>
+                            <td>Mike</td>
+                            <td>
+                                <button>
+                                    <a class="success">Success</a>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr class="odd">
+                            <td>28 Sep 2021, 10:18</td>
+                            <td>Collected from original address</td>
+                            <td>1 of 1</td>
+                            <td>Mike</td>
+                            <td>
+                                <button>
+                                    <a class="pay" href="payment.html">Pay</a>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <!-- ||Profile Section End|| -->
 
         <!-- Footer Section Start -->
         <footer>
@@ -70,7 +181,7 @@
                         <h4>Company</h4>
                         <div class="footer_navigation">
                             <ul>
-                                <li><a href="">Home</a></li>
+                                <li><a href="index.html">Home</a></li>
                                 <li><a href="sign_in.html">Sign In</a></li>
                                 <li><a href="register.html">Register</a></li>
                                 <li><a href="">My Profile</a></li>
