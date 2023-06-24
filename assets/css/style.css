@@ -359,21 +359,26 @@ Sign In Page Css start
 Sign In Page Css End 
 =====================*/
 #navigation {
-    padding: 80px 0 40px 0;
+    padding-top: 80px;
+    box-shadow: 0px 22px 44px -26px rgba(0, 0, 0, 10%);
+    margin-bottom: 40px;
 }
 #navigation ul li {
-    display: inline;
-}
-#navigation ul li a {
+    display: inline-block;
     background: rgba(148, 157, 175, 15%);
-    color: var(--regular-f-color);
     padding: 12px 35px 12px 25px;
     clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%);
+}
+#navigation ul li a {
+    color: var(--regular-f-color);
+    padding: 12px 25px;
     font-size: 20px;
     font-weight: 400;
 }
-#navigation ul li a.active {
+#navigation ul li.active {
     background: var(--focus-color);
+}
+#navigation ul li.active a {
     color: var(--prime-color);
 }
 /*===================== 
@@ -382,6 +387,7 @@ Profile Page Css Start
 #profile,
 #wallet {
     padding-bottom: 80px;
+    background: var(--prime-color);
 }
 .malty_form {
     display: grid;
@@ -538,7 +544,7 @@ a.pay:hover {
 }
 
 .resed .resed_item h6 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: var(--regular-f-color);
 }
@@ -570,6 +576,24 @@ a.pay:hover {
 }
 .order_p strong {
     color: var(--focus-color);
+}
+
+.search_address {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.search_address input {
+    width: 35%;
+}
+.search_address input.submited {
+    width: fit-content;
+    padding: 10px 40px;
+    border: var(--focus-color) 1px solid;
+    background: var(--focus-color);
+    color: var(--prime-color);
 }
 /*===================== 
 Wallet Page Css End 

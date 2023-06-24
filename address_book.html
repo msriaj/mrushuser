@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="assets/css/style.css" />
         <!--==================================================================-->
 
-        <title>RUSH 2.0- Order</title>
+        <title>RUSH 2.0- Address</title>
     </head>
     <body>
         <!-- Header Section Start -->
@@ -61,10 +61,12 @@
                 <ul>
                     <li><a href="profile.html">Profile</a></li>
                     <li><a href="wallet.html">Wallet</a></li>
-                    <li class="active">
+                    <li>
                         <a href="order_history.html">Order History</a>
                     </li>
-                    <li><a href="address_book.html">Address Book</a></li>
+                    <li class="active">
+                        <a href="address_book.html">Address Book</a>
+                    </li>
                     <li><a href="">New Order</a></li>
                 </ul>
             </div>
@@ -74,105 +76,70 @@
         <!-- Profile Section Start -->
         <section id="wallet">
             <div class="container">
-                <p class="order_p">
-                    Your waller Balance is <strong>R450.00</strong>
-                </p>
+                <div class="search_address">
+                    <input
+                        type="text"
+                        placeholder="&#xf002; Search"
+                        style="font-family: Poppins, FontAwesome"
+                    />
+                    <input
+                        class="submited"
+                        type="submit"
+                        value="&#xf055; Add Address"
+                        style="font-family: Poppins, FontAwesome"
+                    />
+                </div>
 
                 <table>
                     <thead>
                         <tr>
-                            <th>Purchase Date</th>
-                            <th>Waybill</th>
-                            <th>Purchase Date</th>
-                            <th>Total Cost</th>
-                            <th>Download Waybill</th>
-                            <th>Action</th>
+                            <th>Name</th>
+                            <th>Company</th>
+                            <th>Address</th>
+                            <th>Default Pickup</th>
+                            <th>Default drop-off</th>
+                            <th>Expand</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="odd">
-                            <td>123456</td>
-                            <td>ABCD1234</td>
-                            <td>04 October 2021</td>
-                            <td>R100.05</td>
-                            <td>
-                                <i class="fa-solid fa-download"></i>
-                            </td>
-                            <td>Expand</td>
-                        </tr>
-                        <tr class="odd">
-                            <td colspan="6">
-                                <div class="resed">
-                                    <div class="resed_item">
-                                        <p>Order #</p>
-                                        <h6>123456789</h6>
-                                    </div>
-                                    <div class="resed_item">
-                                        <p>Courier Details</p>
-                                        <h6>The Courier Guy</h6>
-                                    </div>
-                                    <div class="resed_item bottom_a">
-                                        <h6>Price</h6>
-                                        <h6>R100.05</h6>
-                                    </div>
-                                </div>
-                                <div class="order_btn">
-                                    <div class="common_btn">
-                                        <button>
-                                            <a href="">Share wallet</a>
-                                        </button>
-                                        <button>
-                                            <a href="">Credit Wallet</a>
-                                        </button>
-                                    </div>
-                                    <div class="rating">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="even">
-                            <td>123456</td>
-                            <td>ABCD1234</td>
-                            <td>04 October 2021</td>
-                            <td>R100.05</td>
-                            <td>
-                                <i class="fa-solid fa-download"></i>
-                            </td>
-                            <td>Expand</td>
-                        </tr>
-                        <tr class="odd">
-                            <td>123456</td>
-                            <td>ABCD1234</td>
-                            <td>04 October 2021</td>
-                            <td>R100.05</td>
-                            <td>
-                                <i class="fa-solid fa-download"></i>
-                            </td>
+                            <td>John Smith</td>
+                            <td>XYZ Pvt. Ltd.</td>
+                            <td>XYZ Pvt. Ltd., Nowhere Street, LA</td>
+                            <td>Home</td>
+                            <td>Office</td>
                             <td>Expand</td>
                         </tr>
                         <tr class="even">
-                            <td>123456</td>
-                            <td>ABCD1234</td>
-                            <td>04 October 2021</td>
-                            <td>R100.05</td>
-                            <td>
-                                <i class="fa-solid fa-download"></i>
-                            </td>
+                            <td>John Smith</td>
+                            <td>XYZ Pvt. Ltd.</td>
+                            <td>XYZ Pvt. Ltd., Nowhere Street, LA</td>
+                            <td>Home</td>
+                            <td>Office</td>
                             <td>Expand</td>
                         </tr>
                         <tr class="odd">
-                            <td>123456</td>
-                            <td>ABCD1234</td>
-                            <td>04 October 2021</td>
-                            <td>R100.05</td>
-                            <td>
-                                <i class="fa-solid fa-download"></i>
-                            </td>
+                            <td>John Smith</td>
+                            <td>XYZ Pvt. Ltd.</td>
+                            <td>XYZ Pvt. Ltd., Nowhere Street, LA</td>
+                            <td>Home</td>
+                            <td>Office</td>
+                            <td>Expand</td>
+                        </tr>
+                        <tr class="even">
+                            <td>John Smith</td>
+                            <td>XYZ Pvt. Ltd.</td>
+                            <td>XYZ Pvt. Ltd., Nowhere Street, LA</td>
+                            <td>Home</td>
+                            <td>Office</td>
+                            <td>Expand</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>John Smith</td>
+                            <td>XYZ Pvt. Ltd.</td>
+                            <td>XYZ Pvt. Ltd., Nowhere Street, LA</td>
+                            <td>Home</td>
+                            <td>Office</td>
                             <td>Expand</td>
                         </tr>
                     </tbody>
