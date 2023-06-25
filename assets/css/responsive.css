@@ -307,6 +307,16 @@
     /* ||wallet  Responsive Css End|| */
 
     /* order Css Start */
+    .search_address {
+        display: block;
+    }
+    .search_address input {
+        width: 95%;
+    }
+    .search_address input.submited {
+        width: 99% !important;
+        margin-top: 10px;
+    }
     .six {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
