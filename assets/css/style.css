@@ -152,7 +152,7 @@ textarea {
     background: transparent;
     border: 1px solid var(--secondary-f-color);
     padding: 10px 5px 10px 10px;
-    padding-right: -100px;
+    /* padding-right: -100px; */
     border-radius: 5px;
     color: var(--regular-f-color);
     font-size: 18px;
