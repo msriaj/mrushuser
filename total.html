@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--==================================================================-->
+        <!-- Fav-Icon Image -->
+        <link
+            rel="shortcut icon"
+            href="assets/images/fevicone.png"
+            type="image/x-icon"
+        />
+        <!-- Font Awesome CDN Link -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        />
+        <!-- Custom CSS File -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <!--==================================================================-->
+
+        <title>RUSH 2.0- Total</title>
+    </head>
+    <body>
+        <!-- Header Section Start -->
+        <header>
+            <div id="nav_bar">
+                <a class="logo" href="index.html">
+                    <img src="assets/images/logo-red.png" alt="" />
+                </a>
+
+                <ul>
+                    <li>
+                        <a href="#">Rush Business</a>
+                    </li>
+                    <li>
+                        <a href="#">Rush E-commerce</a>
+                    </li>
+                    <li>
+                        <a href="#">Track Parcel</a>
+                    </li>
+
+                    <div class="nav_btn common_btn">
+                        <button><a href="sign_in.html">Sign in</a></button>
+                        <button><a href="register.html">Register</a></button>
+                    </div>
+
+                    <li>
+                        <a href="#"><i class="fa-solid fa-bars"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- ||Header Section End|| -->
+
+        <!-- Summary Section Start -->
+        <section id="summary">
+            <div class="container">
+                <div class="malty_form">
+                    <div class="search_address">
+                        <p>
+                            You have 1 order in your basket. Total Price R233.45
+                        </p>
+                        <input
+                            class="submited"
+                            type="submit"
+                            value="&#xf055; Add Address"
+                            style="font-family: Poppins, FontAwesome"
+                        />
+                    </div>
+
+                    <p class="outer_p">
+                        Click on the order number to see more details
+                    </p>
+
+                    <div class="profile_header">
+                        <h2>Summary</h2>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Number</th>
+                                <th>Fromt</th>
+                                <th>To</th>
+                                <th>Carrier Details</th>
+                                <th>Total Costs</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="odd">
+                                <td>01</td>
+                                <td>
+                                    Kyle Van Niekerk 145, 2, Cape Service,
+                                    Pretoria West, 0183
+                                </td>
+                                <td>The Courier Guy Overnight</td>
+                                <td>The Courier Guy Overnight</td>
+                                <td>R233.45</td>
+                                <td><i class="fa-solid fa-trash-can"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="resed">
+                        <div class="resed_item">
+                            <p>Total number of orders</p>
+                            <h6>01</h6>
+                        </div>
+                        <div class="resed_item">
+                            <p>Net Cost</p>
+                            <h6>R203.00</h6>
+                        </div>
+                        <div class="resed_item">
+                            <p>VAT @ 15%</p>
+                            <h6>R30.45</h6>
+                        </div>
+                        <div class="resed_item bottom_a">
+                            <h6>Total Cost (Incl. VAT)</h6>
+                            <h6>R233.45</h6>
+                        </div>
+                    </div>
+                    <div class="orders_btn">
+                        <button><a class="add_modal">Rush It</a></button>
+                    </div>
+
+                    <div class="checked">
+                        <input type="checkbox" />
+                        <p>
+                            I agree to courier(s)
+                            <a href="">Terms & Conditions</a> and
+                            <a href="">Packaging Guidelines</a>.
+                        </p>
+                    </div>
+                    <div class="checked">
+                        <input type="checkbox" />
+                        <p>
+                            I agree to pay additional charges if I under-declare
+                            the actual or volumetric weight of my parcel.
+                        </p>
+                    </div>
+                    <div class="checked">
+                        <input type="checkbox" />
+                        <p>Use wallet (Current Balance: R0.00)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Section Start -->
+            <div class="modal">
+                <div class="modal_head">
+                    <h2>Fill in your pick up address</h2>
+
+                    <div class="orders_btn">
+                        <button><a class="delete">Clear</a></button>
+                    </div>
+                </div>
+
+                <form class="malty_form">
+                    <div class="form_data double">
+                        <div class="form_item">
+                            <label for="">Address Line 1 *</label>
+                            <input type="text" />
+                        </div>
+
+                        <div class="form_item">
+                            <label for="">Address Line 2 *</label>
+                            <input type="text" />
+                        </div>
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Sender’s Name</label>
+                        <input type="text" name="" id="" />
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Company Name</label>
+                        <input type="text" name="" id="" />
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Sender’s Email</label>
+                        <input type="text" name="" id="" />
+                    </div>
+
+                    <div class="pay_flex">
+                        <div class="form_item_min">
+                            <label for="">Code</label>
+
+                            <select>
+                                <option value="0">BD +880</option>
+                                <option value="2">USA +1</option>
+                                <option value="1">IND +99</option>
+                            </select>
+                        </div>
+                        <div class="form_item">
+                            <label for="">Mobile number</label>
+                            <input type="number" />
+                        </div>
+                    </div>
+                    <div class="pay_flex">
+                        <div class="form_item_min">
+                            <label for="">Code</label>
+
+                            <select>
+                                <option value="0">BD +880</option>
+                                <option value="2">USA +1</option>
+                                <option value="1">IND +99</option>
+                            </select>
+                        </div>
+                        <div class="form_item">
+                            <label for="">Landline Number</label>
+                            <input type="number" />
+                        </div>
+                    </div>
+
+                    <div class="common_btn">
+                        <button><a class="delete">Cancel</a></button>
+                        <button><a class="add_modal_2">Add Address</a></button>
+                    </div>
+                </form>
+            </div>
+            <!-- ||Modal Section End|| -->
+
+            <!-- Modal Section Start -->
+            <div class="modal_two">
+                <div class="modal_head">
+                    <h2>Fill in your drop off address</h2>
+
+                    <div class="orders_btn">
+                        <button><a class="delete">Clear</a></button>
+                    </div>
+                </div>
+
+                <form class="malty_form">
+                    <div class="form_data double">
+                        <div class="form_item">
+                            <label for="">Address Line 1 *</label>
+                            <input type="text" />
+                        </div>
+
+                        <div class="form_item">
+                            <label for="">Address Line 2 *</label>
+                            <input type="text" />
+                        </div>
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Receiver’s Name</label>
+                        <input type="text" name="" id="" />
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Receiver’s Email Address</label>
+                        <input type="text" name="" id="" />
+                    </div>
+
+                    <div class="pay_flex">
+                        <div class="form_item_min">
+                            <label for="">Code</label>
+
+                            <select>
+                                <option value="0">BD +880</option>
+                                <option value="2">USA +1</option>
+                                <option value="1">IND +99</option>
+                            </select>
+                        </div>
+                        <div class="form_item">
+                            <label for="">Mobile number</label>
+                            <input type="number" />
+                        </div>
+                    </div>
+                    <div class="pay_flex">
+                        <div class="form_item_min">
+                            <label for="">Code</label>
+
+                            <select>
+                                <option value="0">BD +880</option>
+                                <option value="2">USA +1</option>
+                                <option value="1">IND +99</option>
+                            </select>
+                        </div>
+                        <div class="form_item">
+                            <label for="">Landline Number</label>
+                            <input type="number" />
+                        </div>
+                    </div>
+                    <p>Company details (if you are sending to a company)</p>
+                    <div class="pay_input">
+                        <label for="">Company Name</label>
+                        <input type="text" name="" id="" />
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Receiver’s reference</label>
+                        <input type="text" name="" id="" />
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Special Instructions</label>
+                        <input
+                            type="text"
+                            name=""
+                            id=""
+                            placeholder="e.g., Closes @ 03:00PM, Office on 3rd floor, etc"
+                        />
+                    </div>
+
+                    <div class="common_btn">
+                        <button><a>Cancel</a></button>
+                        <button><a>Add Address</a></button>
+                    </div>
+                </form>
+            </div>
+            <!-- ||Modal Section End|| -->
+        </section>
+        <!-- ||Summary Section End|| -->
+
+        <!-- Footer Section Start -->
+        <footer>
+            <div class="container">
+                <div class="footer_logo">
+                    <a href="index.html"
+                        ><img src="assets/images/logo.png" alt=""
+                    /></a>
+                </div>
+                <div class="footer_container">
+                    <div class="footer_content">
+                        <h4>Company</h4>
+                        <div class="footer_navigation">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="sign_in.html">Sign In</a></li>
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="profile.html">My Profile</a></li>
+                                <li><a href="new_order.html">New Order</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">Track Parcel</a></li>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Rush Business</a></li>
+                                <li><a href="">Rush Ecommerce</a></li>
+                                <li><a href="">Packing Guidelines</a></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="">International Shipping</a>
+                                </li>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">News</a></li>
+                                <li><a href="">Basket</a></li>
+                                <li><a href="">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer_content">
+                        <h4>Company Details</h4>
+                        <ul>
+                            <li>
+                                <a href=""
+                                    >Operating hours for customer service<br />
+                                    Monday to Friday 08:00AM - 05:00PM</a
+                                >
+                            </li>
+                        </ul>
+                        <div class="support">
+                            <a href="mailto: support@rush.co.za"
+                                ><i class="fa-solid fa-envelope"></i>
+                                support@rush.co.za</a
+                            >
+                            <a href="tel:010 444 0002"
+                                ><i class="fa-solid fa-phone-volume"></i> 010
+                                444 0002</a
+                            >
+                            <a href="tel:087 057 3900"
+                                ><i class="fa-solid fa-phone-volume"></i>
+
+                                087 057 3900</a
+                            >
+                        </div>
+                        <div class="social_media">
+                            <a href=""
+                                ><i class="fa-brands fa-facebook-f"></i
+                            ></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""
+                                ><i class="fa-brands fa-linkedin-in"></i
+                            ></a>
+                        </div>
+                    </div>
+
+                    <div class="footer_content">
+                        <h4>Newsletter</h4>
+                        <p>Please subscribe to our newsletter</p>
+
+                        <form class="input_fild">
+                            <input
+                                type="email"
+                                class="email"
+                                placeholder="Email Address"
+                            />
+                            <input
+                                type="submit"
+                                value="Subscribe"
+                                class="submit"
+                            />
+                        </form>
+
+                        <div class="payment">
+                            <a href=""
+                                ><img src="assets/images/visa.png" alt=""
+                            /></a>
+                            <a href=""
+                                ><img
+                                    src="assets/images/mastercard-4.png"
+                                    alt=""
+                            /></a>
+                            <a href=""
+                                ><img src="assets/images/paypal-2.png" alt=""
+                            /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="border_line"></div>
+            </div>
+        </footer>
+        <!-- ||Footer Section End|| -->
+
+        <!-- jQury Section Start -->
+        <!--=========================================================-->
+        <!--jQury main file-->
+        <script
+            type="text/javascript"
+            src="assets/js/jquery-1.12.4.min.js"
+        ></script>
+        <!--custom jQury file-->
+        <script type="text/javascript" src="assets/js/app.js"></script>
+        <!--=========================================================-->
+        <!-- ||jQury Section End|| -->
+    </body>
+</html>

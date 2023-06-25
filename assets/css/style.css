@@ -16,12 +16,34 @@ Table of Content
     4. Profile Page
     --------------------
         4.1- Malty Nav Section
-        4.1- Profile Section
+        4.2- Profile Section
     ~~~~~~~~~~~~~~~~~~~~~~
     5. Wallet Page
     --------------------
         5.1- Malty Nav Section
-        5.1- Wallet Section
+        5.2- Wallet Section
+    ~~~~~~~~~~~~~~~~~~~~~~
+    6. Order History Page
+    --------------------
+        6.1- Malty Nav Section
+        6.2- Order History Section
+    ~~~~~~~~~~~~~~~~~~~~~~
+    7. Address Book Page
+    --------------------
+        7.1- Malty Nav Section
+        7.2- Address Book Section
+    ~~~~~~~~~~~~~~~~~~~~~~
+    7. New Order Page
+    --------------------
+        7.1- Malty Nav Section
+        7.2- New Order Section
+        7.3- New Order Document Section
+    ~~~~~~~~~~~~~~~~~~~~~~
+    8. Express Page
+    ~~~~~~~~~~~~~~~~~~~~~~
+    9. Summary Page
+    ~~~~~~~~~~~~~~~~~~~~~~
+    10. Total Page
     ~~~~~~~~~~~~~~~~~~~~~~
 ===================================== */
 
@@ -412,6 +434,19 @@ Sign In Page Css End
 #navigation ul li.active a {
     color: var(--prime-color);
 }
+
+.empty_data {
+    border-radius: 10px;
+    border: 2px solid rgba(148, 157, 175, 20%);
+    padding: 30px 0;
+    margin-top: 50px;
+}
+.empty_data p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary-f-color);
+    padding-top: 20px;
+}
 /*===================== 
 Profile Page Css Start 
 =====================*/
@@ -489,6 +524,9 @@ Profile Page Css Start
     width: fit-content;
     display: inline;
 }
+.checked a {
+    color: var(--focus-color);
+}
 /*===================== 
 Profile Page Css End 
 =====================*/
@@ -514,24 +552,23 @@ Wallet Page Css Start
 #wallet .wallet_head {
     padding: 40px 0;
 }
-#wallet table {
+table {
     width: 100%;
     border-collapse: collapse;
 }
-#wallet table thead {
+table thead {
     background: var(--focus-color);
     color: var(--prime-color);
 }
-#wallet table thead th,
-#wallet table tbody td {
+table thead th,
+table tbody td {
     padding: 14px 20px;
     text-align: left;
 }
-
-#wallet table tbody tr.odd {
+table tbody tr.odd {
     background: rgba(148, 157, 175, 15%);
 }
-#wallet table tbody tr.even {
+table tbody tr.even {
     background: rgba(148, 157, 175, 30%);
 }
 
@@ -644,4 +681,167 @@ a.pay:hover {
 }
 /*===================== 
 Wallet Page Css End 
+=====================*/
+
+/*===================== 
+Express Page Css Start
+=====================*/
+.dom_btn a {
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgba(217, 31, 38, 20%);
+    color: var(--focus-color);
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+.express_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.express_container .express_item {
+    border-radius: 10px;
+    border: rgba(148, 157, 175, 30%) 2px solid;
+}
+.express_container .express_item .express_item_img {
+    border-bottom: rgba(148, 157, 175, 30%) 2px solid;
+}
+.express_container .express_item .express_item_img img {
+    height: 150px;
+    padding: 40px 0;
+}
+.express_container .express_item_content {
+    padding: 30px;
+}
+.express_item_content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--regular-f-color);
+}
+.express_item_content p span {
+    color: var(--secondary-f-color);
+}
+.express_icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #ffc107;
+}
+.express_icone .na {
+    color: var(--secondary-f-color);
+}
+.express_btn a {
+    display: block;
+    background-color: var(--focus-color);
+    color: var(--prime-color);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/*===================== 
+Express Page Css End 
+=====================*/
+
+/*===================== 
+Payment Page Css Start
+=====================*/
+#payment {
+    padding: 100px 0;
+}
+#payment h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--regular-f-color);
+    padding-bottom: 40px;
+}
+#payment .payment_form {
+    padding: 50px 40px;
+    max-width: 500px;
+    box-shadow: 0px 0px 32px -23px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: grid;
+    gap: 20px;
+    margin: auto;
+}
+#payment .payment_form input {
+    width: 95%;
+}
+.pay_flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ps_con {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+.pay_selection {
+    width: 95%;
+}
+.payment_form .orders_btn {
+    margin-top: 30px;
+}
+/*===================== 
+Payment Page Css End 
+=====================*/
+
+/*===================== 
+Summary Page Css Start
+=====================*/
+#summary {
+    padding: 80px 0;
+    position: relative;
+}
+#summary .resed {
+    margin: 30px 0;
+}
+#summary .search_address {
+    justify-content: space-between;
+}
+.outer_p {
+    color: var(--secondary-f-color);
+}
+.fa-trash-can {
+    color: var(--focus-color);
+}
+.modal,
+.modal_two {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 550px;
+    transform: translate(-50%, -50%);
+    background: var(--prime-color);
+    box-shadow: 0px 0px 32px -23px rgba(0, 0, 0, 90%);
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+.modal .modal_head,
+.modal_two .modal_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.modal .common_btn,
+.modal_two .common_btn {
+    padding-top: 20px;
+}
+.modal .form_item,
+.modal_two .form_item {
+    width: 100%;
+}
+.activet {
+    display: block;
+}
+/*===================== 
+Summary Page Css End 
 =====================*/
