@@ -119,6 +119,25 @@ select {
     text-align: center;
     -webkit-appearance: none;
 }
+textarea {
+    width: 98%;
+    height: 120px;
+    resize: none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    background: transparent;
+    border: 1px solid var(--secondary-f-color);
+    padding: 10px 5px 10px 10px;
+    padding-right: -100px;
+    border-radius: 5px;
+    color: var(--regular-f-color);
+    font-size: 18px;
+}
+textarea:focus-visible,
+select:focus-visible {
+    outline: none !important;
+}
 
 .common_btn {
     display: flex;
@@ -591,6 +610,22 @@ a.pay:hover {
 .search_address input.submited {
     width: fit-content;
     padding: 10px 40px;
+    border: var(--focus-color) 1px solid;
+    background: var(--focus-color);
+    color: var(--prime-color);
+}
+
+.six {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: end;
+    gap: 25px;
+}
+.six input {
+    width: 93%;
+}
+.six .submited {
+    padding: 8px 40px;
     border: var(--focus-color) 1px solid;
     background: var(--focus-color);
     color: var(--prime-color);
