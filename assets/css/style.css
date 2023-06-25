@@ -54,7 +54,7 @@ ul {
     margin: 0;
 }
 .container {
-    margin: 0 50px;
+    padding: 0 50px;
 }
 :root {
     /*color*/
@@ -120,7 +120,7 @@ select {
     -webkit-appearance: none;
 }
 textarea {
-    width: 98%;
+    width: 99%;
     height: 120px;
     resize: none;
     margin: 0;
@@ -158,6 +158,18 @@ select:focus-visible {
 .common_btn a:hover {
     background: var(--focus-color);
     color: var(--prime-color);
+}
+.order_trams {
+    color: var(--focus-color);
+}
+.orders_btn a {
+    background: var(--focus-color);
+    color: var(--prime-color);
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: var(--first-transition);
 }
 /* ||Common Css End|| */
 

@@ -71,7 +71,7 @@
         </section>
         <!-- ||Malty Nav Section End|| -->
 
-        <!-- New Order Section Start -->
+        <!-- Profile Section Start -->
         <section id="profile">
             <div class="container">
                 <form class="malty_form">
@@ -93,25 +93,23 @@
 
                     <div id="navigation">
                         <ul>
-                            <li class="active">
+                            <li>
                                 <a href="new_order.html">Parcel</a>
                             </li>
-                            <li><a href="new_order_doc.html">Document</a></li>
+                            <li class="active">
+                                <a href="new_order_doc.html">Document</a>
+                            </li>
                         </ul>
                     </div>
 
                     <div class="form_data six">
                         <div class="form_item">
-                            <label for="">Length (cm)</label>
-                            <input type="text" />
-                        </div>
-                        <div class="form_item">
-                            <label for="">Width (cm)</label>
-                            <input type="text" />
-                        </div>
-                        <div class="form_item">
-                            <label for="">Height (cm)</label>
-                            <input type="text" />
+                            <label for="">Document</label>
+                            <select class="input-fild-from">
+                                <option value="0">A4</option>
+                                <option value="2">A5</option>
+                                <option value="1">A3</option>
+                            </select>
                         </div>
                         <div class="form_item">
                             <label for="">Weight (kg)</label>
@@ -121,6 +119,8 @@
                             <label for="">Items (qty)</label>
                             <input type="text" />
                         </div>
+                        <div class="form_item"></div>
+                        <div class="form_item"></div>
                         <div class="form_item">
                             <input
                                 class="submited"
@@ -152,7 +152,7 @@
                 </form>
             </div>
         </section>
-        <!-- ||New Order Section End|| -->
+        <!-- ||Profile Section End|| -->
 
         <!-- Footer Section Start -->
         <footer>
