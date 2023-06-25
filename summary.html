@@ -114,10 +114,172 @@
                         </div>
                     </div>
                     <div class="orders_btn text_end">
-                        <button><a href="">Rush It</a></button>
+                        <a class="add_modal">Rush It</a>
                     </div>
                 </form>
             </div>
+
+            <!-- Modal Section Start -->
+            <div class="modal">
+                <div class="modal_head">
+                    <h2>Fill in your pick up address</h2>
+
+                    <div class="orders_btn">
+                        <button><a class="delete">Clear</a></button>
+                    </div>
+                </div>
+
+                <form class="malty_form">
+                    <div class="form_data double">
+                        <div class="form_item">
+                            <label for="">Address Line 1 *</label>
+                            <input type="text" />
+                        </div>
+
+                        <div class="form_item">
+                            <label for="">Address Line 2 *</label>
+                            <input type="text" />
+                        </div>
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Sender’s Name</label>
+                        <input type="text" name="" id="" />
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Company Name</label>
+                        <input type="text" name="" id="" />
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Sender’s Email</label>
+                        <input type="text" name="" id="" />
+                    </div>
+
+                    <div class="pay_flex">
+                        <div class="form_item_min">
+                            <label for="">Code</label>
+
+                            <select>
+                                <option value="0">BD +880</option>
+                                <option value="2">USA +1</option>
+                                <option value="1">IND +99</option>
+                            </select>
+                        </div>
+                        <div class="form_item">
+                            <label for="">Mobile number</label>
+                            <input type="number" />
+                        </div>
+                    </div>
+                    <div class="pay_flex">
+                        <div class="form_item_min">
+                            <label for="">Code</label>
+
+                            <select>
+                                <option value="0">BD +880</option>
+                                <option value="2">USA +1</option>
+                                <option value="1">IND +99</option>
+                            </select>
+                        </div>
+                        <div class="form_item">
+                            <label for="">Landline Number</label>
+                            <input type="number" />
+                        </div>
+                    </div>
+
+                    <div class="common_btn">
+                        <a class="delete">Cancel</a>
+                        <a class="add_modal_2">Add Address</a>
+                    </div>
+                </form>
+            </div>
+            <!-- ||Modal Section End|| -->
+
+            <!-- Modal Section Start -->
+            <div class="modal_two">
+                <div class="modal_head">
+                    <h2>Fill in your drop off address</h2>
+
+                    <div class="orders_btn">
+                        <button><a class="delete">Clear</a></button>
+                    </div>
+                </div>
+
+                <form class="malty_form">
+                    <div class="form_data double">
+                        <div class="form_item">
+                            <label for="">Address Line 1 *</label>
+                            <input type="text" />
+                        </div>
+
+                        <div class="form_item">
+                            <label for="">Address Line 2 *</label>
+                            <input type="text" />
+                        </div>
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Receiver’s Name</label>
+                        <input type="text" name="" id="" />
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Receiver’s Email Address</label>
+                        <input type="text" name="" id="" />
+                    </div>
+
+                    <div class="pay_flex">
+                        <div class="form_item_min">
+                            <label for="">Code</label>
+
+                            <select>
+                                <option value="0">BD +880</option>
+                                <option value="2">USA +1</option>
+                                <option value="1">IND +99</option>
+                            </select>
+                        </div>
+                        <div class="form_item">
+                            <label for="">Mobile number</label>
+                            <input type="number" />
+                        </div>
+                    </div>
+                    <div class="pay_flex">
+                        <div class="form_item_min">
+                            <label for="">Code</label>
+
+                            <select>
+                                <option value="0">BD +880</option>
+                                <option value="2">USA +1</option>
+                                <option value="1">IND +99</option>
+                            </select>
+                        </div>
+                        <div class="form_item">
+                            <label for="">Landline Number</label>
+                            <input type="number" />
+                        </div>
+                    </div>
+                    <p>Company details (if you are sending to a company)</p>
+                    <div class="pay_input">
+                        <label for="">Company Name</label>
+                        <input type="text" name="" id="" />
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Receiver’s reference</label>
+                        <input type="text" name="" id="" />
+                    </div>
+                    <div class="pay_input">
+                        <label for="">Special Instructions</label>
+                        <input
+                            type="text"
+                            name=""
+                            id=""
+                            placeholder="e.g., Closes @ 03:00PM, Office on 3rd floor, etc"
+                        />
+                    </div>
+
+                    <div class="common_btn">
+                        <a class="delete">Cancel</a>
+                        <a class="delete">Add Address</a>
+                    </div>
+                </form>
+            </div>
+            <!-- ||Modal Section End|| -->
         </section>
         <!-- ||Summary Section End|| -->
 
@@ -230,5 +392,17 @@
             </div>
         </footer>
         <!-- ||Footer Section End|| -->
+
+        <!-- jQury Section Start -->
+        <!--=========================================================-->
+        <!--jQury main file-->
+        <script
+            type="text/javascript"
+            src="assets/js/jquery-1.12.4.min.js"
+        ></script>
+        <!--custom jQury file-->
+        <script type="text/javascript" src="assets/js/app.js"></script>
+        <!--=========================================================-->
+        <!-- ||jQury Section End|| -->
     </body>
 </html>

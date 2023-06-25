@@ -69,6 +69,7 @@ span {
 a,
 a:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 ul {
     list-style-type: none;
@@ -817,12 +818,13 @@ Summary Page Css Start
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 550px;
+    width: 600px;
     transform: translate(-50%, -50%);
     background: var(--prime-color);
     box-shadow: 0px 0px 32px -23px rgba(0, 0, 0, 90%);
     padding: 50px 30px;
     border-radius: 10px;
+    margin-top: 90px;
 }
 .modal .modal_head,
 .modal_two .modal_head {
@@ -844,4 +846,47 @@ Summary Page Css Start
 }
 /*===================== 
 Summary Page Css End 
+=====================*/
+
+/*===================== 
+Total Modal Page Css Start
+=====================*/
+.total_modal {
+    display: none;
+    position: fixed;
+    overflow: scroll;
+    inset: 0;
+    background: rgba(102, 102, 102, 0.9);
+    padding: 60px;
+}
+.total_modal .total_modal_content {
+    background: var(--prime-color);
+    padding: 50px;
+    border-radius: 10px;
+}
+.total_modal .profile_header h2 {
+    color: var(--focus-color);
+}
+.total_modal .total_summary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(148, 157, 175, 40%);
+}
+.total_summary .ts_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.ts_item.bb {
+    border-bottom: 1px solid rgba(148, 157, 175, 40%);
+}
+
+.show {
+    display: block;
+}
+/*===================== 
+Total Modal Page Css End 
 =====================*/
