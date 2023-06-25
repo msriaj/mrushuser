@@ -1,0 +1,221 @@
+@media (min-width: 1200px) and (max-width: 1805px) {
+    .common_btn a {
+        font-size: 16px;
+        padding: 6px 15px;
+    }
+    input {
+        width: 92% !important;
+        padding: 10px 5px 10px 10px;
+        font-size: 18px;
+    }
+
+    /* Header Responsive Css Start */
+    header #nav_bar ul {
+        gap: 20px;
+    }
+    header #nav_bar ul li a {
+        font-size: 20px;
+    }
+    header #nav_bar .nav_btn {
+        padding-left: 10px;
+    }
+    /* ||Header Responsive Css End|| */
+
+    /* Footer Responsive Css Start */
+    footer {
+        padding-bottom: 70px;
+    }
+    footer .footer_logo img {
+        width: 110px;
+    }
+    footer .footer_container {
+        gap: 8px;
+    }
+    footer .footer_content h4 {
+        padding-bottom: 25px;
+        font-size: 18px;
+    }
+    footer .footer_navigation {
+        gap: 8px;
+    }
+    footer li a {
+        font-size: 15px;
+    }
+    footer .support a {
+        font-size: 15px;
+    }
+    footer .social_media {
+        gap: 10px;
+    }
+    footer p {
+        font-size: 15px;
+    }
+    footer .input_fild .email {
+        width: 90%;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    footer .input_fild .submit {
+        padding: 10px 20px;
+        border-radius: 0 5px 5px 0;
+        color: var(--focus-color);
+        font-weight: 500;
+        font-size: 15px;
+    }
+    footer .payment {
+        padding-top: 30px;
+        gap: 10px;
+    }
+    footer .payment img {
+        height: 30px;
+    }
+    /* ||Footer Responsive Css End|| */
+}
+@media (max-width: 1000px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Header Responsive Css Start */
+    header {
+        padding: 0 15px;
+    }
+    header .logo img {
+        width: 70px;
+    }
+    header #nav_bar ul {
+        display: none;
+    }
+    /* ||Header Responsive Css End|| */
+
+    /* Footer Responsive Css Start */
+    footer {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    footer .footer_logo img {
+        width: 90px;
+    }
+    footer .footer_container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    footer .footer_content {
+        padding-top: 25px;
+    }
+    footer .footer_content h4 {
+        padding-bottom: 15px;
+        font-size: 17px;
+    }
+    footer .footer_navigation {
+        gap: 20px;
+    }
+    footer li a {
+        font-size: 15px;
+    }
+    footer .support {
+        display: block;
+    }
+    footer .support a {
+        font-size: 15px;
+        display: block;
+        line-height: 30px;
+    }
+    footer .social_media a i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 15px;
+    }
+    footer p {
+        font-size: 15px;
+    }
+    footer .input_fild .email {
+        width: 70% !important;
+        padding: 10px;
+        font-size: 14px;
+    }
+    footer .input_fild .submit {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    footer .payment {
+        padding-top: 30px;
+        justify-content: space-around;
+        gap: 8px;
+    }
+    footer .payment img {
+        height: 30px;
+    }
+    /* ||Footer Responsive Css End|| */
+
+    /* Sign in Responsive Css Start */
+    #sign_in,
+    #register {
+        padding: 50px 0;
+    }
+    #sign_in .sing_in_container {
+        width: 100%;
+    }
+    #sign_in form {
+        padding-top: 15px;
+        gap: 10px;
+    }
+    #sign_in h2 {
+        font-size: 28px;
+    }
+    #sign_in p {
+        font-size: 16px;
+    }
+    #sign_in form input {
+        width: 92% !important;
+    }
+    #sign_in form a {
+        font-size: 16px;
+    }
+    #sign_in button a {
+        font-size: 16px;
+        padding: 12px;
+    }
+    /* ||Sign in Responsive Css End|| */
+    #navigation {
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+    #navigation ul li {
+        display: block;
+        background: rgba(148, 157, 175, 15%);
+        padding: 12px 0;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        text-align: center;
+        margin: 4px 0;
+    }
+    #navigation ul li a {
+        padding: 12px 90px;
+        font-size: 18px;
+    }
+    /* Profile Responsive Css Start */
+    #profile,
+    #wallet {
+        padding-bottom: 50px;
+    }
+    .malty_form {
+        gap: 15px;
+    }
+    .malty_form .profile_header {
+        display: block;
+    }
+    .profile_header h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .profile_header a {
+        font-size: 16px;
+    }
+    .malty_form .double {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    /* ||Profile Responsive Css End|| */
+}
