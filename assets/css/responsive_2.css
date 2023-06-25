@@ -1,0 +1,1289 @@
+@media (min-width: 1500px) and (max-width: 1819.98px) {
+    .container {
+        max-width: 100%;
+        padding: 0 40px;
+    }
+    /* #banner_head Responsive Css Start */
+    #banner_head {
+        padding-bottom: 120px;
+    }
+    nav {
+        padding: 40px 0;
+    }
+    #banner .banner-text h1 {
+        font-size: 48px;
+    }
+    /* ||#banner_head Responsive Css End|| */
+
+    /* Qoute Responsive Css Start */
+    #qoute .qoute-btn {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 72px;
+        gap: 20px;
+    }
+    #qoute .btn-1 {
+        width: 501px;
+    }
+    #qoute .btn-2 {
+        width: 687px;
+    }
+    /* ||Qoute Responsive Css End|| */
+
+    /* Package Responsive Css Start */
+    #package .heading h4 {
+        padding-bottom: 180px;
+    }
+    #package .package-item .package-overlay {
+        width: 241px;
+    }
+    /* ||Package Responsive Css End|| */
+
+    /* Description Responsive Css Start */
+    #description {
+        padding: 112px 200px;
+        font-size: 42px;
+    }
+    /* ||Description Responsive Css End|| */
+
+    /* Why Choose Responsive Css Start */
+    .chooses-container .item img {
+        height: 64px;
+    }
+    .chooses-container .item h5 {
+        font-size: 30px;
+    }
+    .chooses-container .item p {
+        font-size: 25px;
+    }
+    /* ||Why Choose Responsive Css End|| */
+
+    /*  Feedback Responsive Css Start */
+    #feedback .feedback-item .samiclone img {
+        height: 50px;
+    }
+    #feedback .feedback-item h5 {
+        font-size: 30px;
+        padding: 25px 0;
+    }
+    #feedback .feedback-item p {
+        padding-top: 25px;
+        font-size: 22px;
+        line-height: 42px;
+    }
+    /* || Feedback Responsive Css End|| */
+
+    /* =================
+    Contact Page CSS
+    ====================*/
+    #contact {
+        padding: 40px 70px;
+    }
+}
+@media (min-width: 1170px) and (max-width: 1499.98px) {
+    .container {
+        max-width: 100%;
+        padding: 0 40px;
+    }
+    /* #banner_head Responsive Css Start */
+    #banner_head {
+        padding-bottom: 100px;
+    }
+    nav {
+        padding: 30px 0;
+    }
+    nav .logo img {
+        width: 110px;
+    }
+    nav .menu li a {
+        font-size: 18px;
+        margin: 0 15px;
+    }
+    nav .btn-1 {
+        padding: 15px 25px;
+        margin-right: 28px;
+    }
+    nav .btn-2 {
+        padding: 15px 25px;
+    }
+    nav .btn-3 img {
+        width: 42px;
+        margin-left: 40px;
+    }
+    #banner {
+        padding-top: 80px;
+    }
+    #banner .banner-text {
+        width: 50%;
+    }
+    #banner .banner-img {
+        width: 50%;
+    }
+    #banner .banner-text h1 {
+        font-size: 35px;
+        line-height: 58px;
+    }
+    #banner .banner-text p {
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 38px;
+        margin-bottom: 34px;
+    }
+    /* ||#banner_head Responsive Css End|| */
+
+    /* Our Partners Responsive Css Start */
+    #our-partners h2 {
+        font-size: 48px;
+    }
+    /* ||Our Partners Responsive Css End|| */
+
+    /* Qoute Responsive Css Start */
+    #qoute .qoute-btn {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 72px;
+        gap: 20px;
+    }
+    #qoute .btn-1 {
+        width: 501px;
+        font-size: 25px;
+        padding: 22px 0;
+    }
+    #qoute .btn-2 {
+        width: 687px;
+        font-size: 25px;
+        padding: 22px 0;
+    }
+    /* ||Qoute Responsive Css End|| */
+
+    /* Package Responsive Css Start */
+    #package {
+        padding-bottom: 50px;
+    }
+    #package .heading h4 {
+        padding-bottom: 150px;
+        font-size: 35px;
+    }
+    #package .package-item .package-overlay {
+        width: 241px;
+    }
+    /* ||Package Responsive Css End|| */
+
+    /* Description Responsive Css Start */
+    #description {
+        padding: 90px 150px;
+        font-size: 30px;
+    }
+    /* ||Description Responsive Css End|| */
+
+    /* Why Choose Responsive Css Start */
+    #choose .heading {
+        padding-bottom: 85px;
+    }
+    #choose .heading h4 {
+        font-size: 48px;
+        padding-bottom: 30px;
+    }
+    #choose .heading p {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .chooses-container .item img {
+        height: 54px;
+    }
+    .chooses-container .item h5 {
+        font-size: 25px;
+    }
+    .chooses-container .item p {
+        font-size: 20px;
+        line-height: 38px;
+    }
+    /* ||Why Choose Responsive Css End|| */
+
+    /* Subscriptions Responsive Css Start */
+    #sub {
+        padding: 100px;
+    }
+    .sub-heading h4 {
+        font-size: 48px;
+        line-height: 58px;
+        padding-bottom: 38px;
+    }
+    /* ||Subscriptions Responsive Css End|| */
+
+    /*  Feedback Responsive Css Start */
+    #feedback {
+        padding-bottom: 90px;
+    }
+    #feedback .heading {
+        padding: 90px 0;
+    }
+    #feedback .heading h4 {
+        font-size: 48px;
+        padding-bottom: 35px;
+    }
+    #feedback .heading p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    #feedback .feedback-item .samiclone {
+        right: 30px;
+    }
+    #feedback .feedback-item .samiclone img {
+        height: 40px;
+    }
+    #feedback .feedback-item h5 {
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    #feedback .feedback-item p {
+        font-size: 20px;
+        line-height: 33px;
+        padding-top: 30px;
+    }
+    /* || Feedback Responsive Css End|| */
+
+    /* Video Responsive Css Start */
+    #video {
+        padding: 90px 0 75px 0;
+    }
+    #video .heading {
+        padding-bottom: 90px;
+    }
+    #video .heading h4 {
+        font-size: 48px;
+        padding-bottom: 35px;
+    }
+    #video .heading p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    /* ||Video Responsive Css End|| */
+
+    /* ===================
+    Services Page
+    =================== */
+    .service {
+        padding-bottom: 90px;
+    }
+    .service-banner h1 {
+        font-size: 35px;
+    }
+    .service-banner p {
+        font-size: 35px;
+    }
+    #service-branding .brand-content h5 {
+        font-size: 20px;
+    }
+    #service-branding .service-trak img {
+        height: 200px;
+    }
+    #service-branding .brand-content img {
+        padding: 30px 0;
+        width: 50%;
+    }
+    #parcel-form {
+        max-width: 1020px;
+    }
+    #parcel-form .form-heading a {
+        font-size: 24px;
+    }
+    .address-form label {
+        font-size: 22px;
+    }
+    .placing a {
+        padding: 20px 90px;
+        font-size: 22px;
+    }
+    #parcel-form .add-btn {
+        margin: 20px 0;
+        margin-left: 50px;
+        padding: 20px 40px;
+    }
+    /* =================
+    News Page CSS
+    ==================== */
+    #news .news-img img {
+        width: 380px;
+    }
+    #news .news-item .news-heading {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    #news .news-item .news-heading h4,
+    #news .news-item .news-heading p {
+        font-size: 16px;
+    }
+    #news .news-item .news-heading p {
+        padding-right: 0px;
+    }
+    #news .news-item .news-text p {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 10px 0;
+    }
+    /* =================
+    Contact Page CSS
+    ====================*/
+    #contact {
+        padding: 40px 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1169.98px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    /* #banner_head Responsive Css Start */
+    #banner_head {
+        padding-bottom: 80px;
+    }
+    nav {
+        padding: 25px 0;
+    }
+    nav .logo img {
+        width: 110px;
+    }
+    nav .menu {
+        display: none;
+    }
+    nav .btn-1 {
+        padding: 15px 25px;
+        margin-right: 22px;
+    }
+    nav .btn-2 {
+        padding: 15px 25px;
+    }
+    nav .btn-3 img {
+        width: 40px;
+        margin-left: 30px;
+    }
+    #banner {
+        padding-top: 60px;
+        flex-direction: column-reverse;
+    }
+    #banner .banner-text {
+        width: 100%;
+        text-align: center;
+    }
+    #banner .banner-text h1 {
+        font-size: 35px;
+        line-height: 58px;
+    }
+    #banner .banner-text p {
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 38px;
+        margin-bottom: 34px;
+    }
+    /* ||#banner_head Responsive Css End|| */
+
+    /* Our Partners Responsive Css Start */
+    #our-partners {
+        padding: 90px 0;
+    }
+    #our-partners h2 {
+        font-size: 48px;
+    }
+    /* ||Our Partners Responsive Css End|| */
+
+    /* Qoute Responsive Css Start */
+    #qoute .qoute-btn {
+        padding-bottom: 62px;
+        gap: 20px;
+    }
+    #qoute .btn-1 {
+        max-width: 501px;
+        font-size: 25px;
+        padding: 22px 0;
+    }
+    #qoute .btn-2 {
+        max-width: 687px;
+        font-size: 25px;
+        padding: 22px 0;
+    }
+    /* ||Qoute Responsive Css End|| */
+
+    /* Package Responsive Css Start */
+    #package {
+        padding-bottom: 50px;
+    }
+    #package .heading h4 {
+        padding-bottom: 70px;
+        font-size: 24px;
+    }
+    #package .package-item .package-overlay {
+        width: 231px;
+    }
+    /* ||Package Responsive Css End|| */
+
+    /* Description Responsive Css Start */
+    #description {
+        padding: 70px 110px;
+        font-size: 24px;
+    }
+    /* ||Description Responsive Css End|| */
+
+    /* Why Choose Responsive Css Start */
+    #choose .heading {
+        padding-bottom: 85px;
+    }
+    #choose .heading h4 {
+        font-size: 48px;
+        padding-bottom: 30px;
+    }
+    #choose .heading p {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .chooses-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        justify-content: center;
+    }
+    .chooses-container .item img {
+        height: 54px;
+    }
+    .chooses-container .item h5 {
+        font-size: 25px;
+    }
+    .chooses-container .item p {
+        font-size: 20px;
+        line-height: 38px;
+    }
+    /* ||Why Choose Responsive Css End|| */
+
+    /* Subscriptions Responsive Css Start */
+    #sub {
+        padding: 100px;
+    }
+    .sub-heading h4 {
+        font-size: 48px;
+        line-height: 58px;
+        padding-bottom: 38px;
+    }
+    /* ||Subscriptions Responsive Css End|| */
+
+    /*  Feedback Responsive Css Start */
+    #feedback {
+        padding-bottom: 90px;
+    }
+    #feedback .heading {
+        padding: 90px 0;
+    }
+    #feedback .heading h4 {
+        font-size: 48px;
+        padding-bottom: 35px;
+    }
+    #feedback .heading p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    #feedback .show-feedback {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    #feedback .feedback-item .feed-text {
+        padding: 30px;
+    }
+    #feedback .feedback-item .samiclone {
+        right: 30px;
+    }
+    #feedback .feedback-item .samiclone img {
+        height: 40px;
+    }
+    #feedback .feedback-item h5 {
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    #feedback .feedback-item p {
+        font-size: 20px;
+        line-height: 33px;
+        padding-top: 20px;
+    }
+    /* || Feedback Responsive Css End|| */
+
+    /* Video Responsive Css Start */
+    #video {
+        padding: 90px 0 75px 0;
+    }
+    #video .heading {
+        padding-bottom: 90px;
+    }
+    #video .heading h4 {
+        font-size: 48px;
+        padding-bottom: 35px;
+    }
+    #video .heading p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    /* ||Video Responsive Css End|| */
+
+    /* ===================
+    Services Page
+    =================== */
+    .service {
+        padding-bottom: 90px;
+    }
+    .service .service-banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .service-banner h1 {
+        font-size: 25px;
+    }
+    .service-banner p {
+        font-size: 25px;
+    }
+    .service .banner-img img {
+        width: 60%;
+    }
+    #service-branding .service-trak {
+        display: none;
+    }
+    #service-branding .brand-content h5 {
+        font-size: 18px;
+    }
+    #service-branding .brand-content img {
+        width: 100%;
+    }
+    #parcel-form .form-heading a {
+        font-size: 20px;
+    }
+    #parcel-form .address-form {
+        padding: 20px 20px;
+        gap: 15px;
+    }
+    .address-form label {
+        font-size: 18px;
+    }
+    #parcel-form .address-input {
+        gap: 15px;
+    }
+    .placing .data {
+        padding: 0 20px;
+    }
+    .placing a {
+        padding: 20px 60px;
+        font-size: 18px;
+    }
+    .placing form {
+        gap: 15px;
+        padding: 0 20px;
+        padding-top: 40px;
+    }
+    #parcel-form .add-btn {
+        margin: 20px 0;
+        margin-left: 20px;
+        padding: 15px 35px;
+        font-size: 18px;
+    }
+    #parcel-form .text-aria {
+        padding: 0 20px;
+    }
+    .radio-btn {
+        font-size: 18px;
+    }
+    .emty-fild {
+        display: none;
+    }
+    /* =================
+    News Page CSS
+    ==================== */
+    #news {
+        padding: 0px 40px;
+        padding-bottom: 40px;
+    }
+    #news .news-item {
+        flex-direction: column;
+    }
+    #news .news-img img {
+        width: 100%;
+    }
+    #news .news-item .news-heading {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    #news .news-item .news-heading h4,
+    #news .news-item .news-heading p {
+        font-size: 16px;
+    }
+    #news .news-item .news-heading p {
+        padding-right: 0px;
+    }
+    #news .news-item .news-text p {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 10px 0;
+    }
+    #news .news-item .news-modal {
+        padding: 20px;
+    }
+    #news .news-item .news-modal .modal-head h5 {
+        font-size: 17px;
+    }
+    /* =================
+    E-Commerce Page CSS
+    ====================*/
+    #e-commerce-q .first-sec {
+        flex-direction: column;
+    }
+    #api .api-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    #api .api-options {
+        gap: 20px;
+    }
+    /* =================
+    Contact Page CSS
+    ====================*/
+    #contact {
+        padding: 40px 10px;
+        text-align: center;
+    }
+    #contact iframe {
+        height: 250px;
+    }
+    #contact h2 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    #contact p {
+        font-size: 14px;
+        padding-bottom: 28px;
+    }
+    #contact .contact-sec {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+        padding: 8px;
+    }
+    .contact-details {
+        padding-top: 30px;
+    }
+}
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .mobile-hide {
+        display: none;
+    }
+    /* #banner_head Responsive Css Start */
+    #banner_head {
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+    nav {
+        display: none;
+    }
+    #banner {
+        padding-top: 30px;
+        flex-direction: column-reverse;
+    }
+    #banner .banner-text {
+        width: 100%;
+        text-align: center;
+    }
+    #banner .banner-text h1 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    #banner .banner-text p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 20px;
+        margin-bottom: 34px;
+    }
+    #banner .banner-text .btn {
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    /* Mobile Nav */
+    #mobile-nav {
+        display: block;
+        background: var(--focus-color);
+        position: relative;
+    }
+    #mobile-nav .mob-con {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+    }
+    #mobile-nav .toggol {
+        transition: var(--first-transition);
+    }
+    #mobile-nav .toggol .fa-xmark {
+        display: none;
+    }
+    #mobile-nav .toggol.activeted .fa-xmark {
+        display: block;
+    }
+    #mobile-nav .toggol.activeted .fa-bars {
+        display: none;
+    }
+    #mobile-nav .mob-logo img {
+        width: 80px;
+    }
+    #mobile-nav .btn a {
+        font-size: 13px;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 4px 9px;
+        border-radius: 15px;
+        transition: var(--first-transition);
+    }
+    #mobile-nav .btn a:hover {
+        background: #fff;
+        color: var(--focus-color);
+    }
+    #mobile-nav button i {
+        font-size: 18px;
+        color: #fff;
+        margin-left: 6px;
+    }
+
+    #mobile-nav .nav-bar {
+        position: absolute;
+        top: 80%;
+        right: 20px;
+        display: none;
+        background: #fff;
+        padding: 15px 0;
+        transition: var(--first-transition);
+    }
+    #mobile-nav .nav-bar.active {
+        display: block;
+    }
+    #mobile-nav .nav-bar li {
+        display: block;
+    }
+    #mobile-nav .nav-bar li a {
+        padding: 3px 15px;
+        display: block;
+        color: #000;
+        transition: var(--first-transition);
+    }
+    #mobile-nav .nav-bar li a:hover {
+        box-shadow: 0px 3px 14px 0px rgba(90, 90, 90, 0.55);
+        color: var(--focus-color);
+    }
+    /* ||#banner_head Responsive Css End|| */
+
+    /* Our Partners Responsive Css Start */
+    #our-partners {
+        padding: 50px 0;
+    }
+    #our-partners h2 {
+        font-size: 35px;
+    }
+    #our-partners .partners {
+        padding-top: 50px;
+    }
+    /* ||Our Partners Responsive Css End|| */
+
+    /* Qoute Responsive Css Start */
+    #qoute .qoute-btn {
+        display: none;
+    }
+    #qoute .qoute-btn-mob {
+        display: flex;
+        padding-bottom: 50px;
+    }
+    #qoute .qoute-btn-mob .btn-mob {
+        width: 100%;
+        color: var(--focus-color);
+        text-align: center;
+        border-top: 4px solid var(--focus-color);
+        border-bottom: 4px solid var(--focus-color);
+        padding: 7px 0px;
+        font-size: 11px;
+        transition: var(--first-transition);
+    }
+    #qoute .qoute-btn-mob .btn-mob:hover {
+        color: var(--prime-color);
+        background: var(--focus-color);
+    }
+    #qoute .qoute-btn-mob .btn-mob.pp {
+        border-right: 2px solid var(--focus-color);
+    }
+    /* ||Qoute Responsive Css End|| */
+
+    /* Package Responsive Css Start */
+    #package {
+        padding-bottom: 50px;
+    }
+    #package .heading h4 {
+        padding-bottom: 70px;
+        font-size: 24px;
+        line-height: 42px;
+    }
+    #package .package-item {
+        padding: 28px 8px;
+    }
+    #package .package-item .item-containt {
+        width: 100%;
+        height: 380px;
+    }
+    #package .package-item .package-overlay {
+        width: 170px;
+        height: 90px;
+    }
+    #package .package-item .package-overlay img {
+        height: 35px;
+    }
+    #package .package-item .package-overlay h6 {
+        font-size: 20px;
+    }
+    #package .package-item .package-text {
+        padding: 90px 0 0 32px;
+    }
+    .package-text h5 {
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+    .package-text p {
+        font-size: 16px;
+        padding-right: 15px;
+    }
+    /* ||Package Responsive Css End|| */
+
+    /* Description Responsive Css Start */
+    #description {
+        padding: 50px 10px;
+        font-size: 18px;
+    }
+    #description .dis-pt {
+        padding-top: 25px;
+    }
+    /* ||Description Responsive Css End|| */
+
+    /* Why Choose Responsive Css Start */
+    #choose {
+        padding: 50px 0;
+    }
+    #choose .heading {
+        padding-bottom: 50px;
+    }
+    #choose .heading h4 {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    #choose .heading p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .chooses-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px 0;
+        justify-content: center;
+    }
+    .chooses-container .item {
+        height: fit-content;
+    }
+    .chooses-container .item .item-data {
+        padding: 30px;
+    }
+    .chooses-container .item img {
+        height: 54px;
+    }
+    .chooses-container .item h5 {
+        font-size: 25px;
+        padding: 15px 0;
+    }
+    .chooses-container .item p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    /* ||Why Choose Responsive Css End|| */
+
+    /* Subscriptions Responsive Css Start */
+    #sub {
+        padding: 50px 15px;
+    }
+    .sub-heading h4 {
+        font-size: 25px;
+        line-height: 44px;
+        padding-bottom: 30px;
+    }
+    .sub-heading p {
+        font-size: 16px;
+        line-height: 28px;
+        padding-bottom: 40px;
+    }
+    .sub-heading button {
+        padding: 20px 30px;
+        font-size: 18px;
+    }
+    /* ||Subscriptions Responsive Css End|| */
+
+    /*  Feedback Responsive Css Start */
+    #feedback {
+        padding-bottom: 50px;
+    }
+    #feedback .heading {
+        padding: 50px 0;
+    }
+    #feedback .heading h4 {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    #feedback .heading p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    #feedback .show-feedback {
+        gap: 50px;
+        grid-template-columns: 1fr;
+    }
+    #feedback .feedback-item .feedback-img img {
+        height: 120px;
+    }
+    #feedback .feedback-item .samiclone {
+        right: 30px;
+    }
+    #feedback .feedback-item .samiclone img {
+        height: 40px;
+    }
+    #feedback .feedback-item h5 {
+        font-size: 22px;
+        padding: 18px 0;
+    }
+    #feedback .feedback-item p {
+        font-size: 18px;
+        line-height: 30px;
+        padding-top: 18px;
+    }
+    #feedback .feedback-item .star-icone i {
+        font-size: 25px;
+    }
+    /* || Feedback Responsive Css End|| */
+
+    /* Video Responsive Css Start */
+    #video {
+        padding: 50px 10px;
+    }
+    #video .heading {
+        padding-bottom: 30px;
+    }
+    #video .heading h4 {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    #video .heading p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    /* ||Video Responsive Css End|| */
+
+    /* ===================
+    Login Page
+    =================== */
+    #login-page form {
+        width: 100%;
+    }
+    #login-page .form-logo img {
+        width: 110px;
+    }
+    #login-page .heading {
+        padding: 30px 0;
+    }
+    #login-page .heading h2,
+    #login-page .heading p {
+        font-size: 15px;
+    }
+    #login-page input {
+        display: block;
+        width: 295px;
+    }
+    #login-page label {
+        font-size: 14px;
+    }
+    #login-page .login-btn p {
+        padding: 28px 0;
+        font-size: 14px;
+    }
+    #login-page .login-btn .btn {
+        padding: 12px 42px;
+        font-size: 15px;
+    }
+    /* ===================
+    Services Page
+    =================== */
+    .service {
+        padding-bottom: 40px;
+    }
+    .service .service-banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .service-banner h1 {
+        font-size: 25px;
+    }
+    .service-banner p {
+        font-size: 20px;
+    }
+    .service .banner-img img {
+        width: 60%;
+    }
+    #service-branding .service-trak {
+        display: none;
+    }
+    #service-branding .brand-content h5 {
+        font-size: 18px;
+    }
+    #service-branding .brand-content img {
+        width: 100%;
+    }
+
+    #parcel-form .form-heading {
+        background: #fff;
+        border-top: 4px solid var(--focus-color);
+        border-bottom: 4px solid var(--focus-color);
+        padding: 0;
+    }
+    #parcel-form .form-heading a {
+        font-size: 10px;
+        padding: 10px 0;
+        color: var(--prime-color);
+        background-color: var(--focus-color);
+        transition: var(--first-transition);
+    }
+    #parcel-form a.dipe {
+        color: var(--focus-color);
+        background-color: transparent;
+    }
+    #parcel-form .form-heading .ab {
+        border-right: 2px solid var(--focus-color);
+    }
+    #parcel-form .address-form {
+        padding: 20px 10px;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .address-form label {
+        font-size: 14px;
+    }
+    #parcel-form .address-input {
+        gap: 15px;
+    }
+    .placing .data {
+        padding: 0 10px;
+    }
+    .placing a {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+    .placing form {
+        gap: 10px;
+        padding: 0 10px;
+        padding-top: 30px;
+        font-size: 14px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .placing form label {
+        font-size: 15px;
+    }
+    .placing form input {
+        padding: 10px 1px !important;
+    }
+
+    #parcel-form .add-btn {
+        margin: 15px 0;
+        margin-left: 10px;
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+    #parcel-form .text-aria {
+        padding: 0 10px;
+    }
+    #parcel-form .text-aria label {
+        font-size: 15px;
+    }
+    .radio-btn {
+        font-size: 11px;
+    }
+    .emty-fild {
+        display: none;
+    }
+
+    #register {
+        padding: 50px 20px;
+    }
+    .info-form .first-fild {
+        grid-template-columns: 1fr;
+    }
+    .fild-expand {
+        grid-column: initial;
+    }
+    #register p {
+        font-size: 18px;
+        background-color: rgba(148, 157, 175, 20%);
+        padding: 15px 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .info-form .fild input {
+        width: 100%;
+        border: 1px solid var(--secondary-font-color);
+        padding: 10px 0;
+        border-radius: 5px;
+    }
+    .btn-group {
+        display: flex;
+        justify-content: center;
+    }
+    .reg-btn a {
+        padding: 12px 22px;
+    }
+    /* =================
+    FAQ Page CSS
+    ==================== */
+    #faq {
+        padding: 50px 10px;
+    }
+    #faq .faq-container {
+        grid-template-columns: 1fr;
+    }
+    /* =================
+    News Page CSS
+    ==================== */
+    #news {
+        padding: 40px 10px;
+    }
+    #news .news-item {
+        flex-direction: column;
+    }
+    #news .news-img img {
+        width: 100%;
+    }
+    #news .news-item .news-heading {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    #news .news-item .news-heading h4,
+    #news .news-item .news-heading p {
+        font-size: 15px;
+    }
+    #news .news-item .news-heading p {
+        padding-right: 0px;
+    }
+    #news .news-item .news-text button {
+        font-size: 15px;
+    }
+    #news .news-item .news-text p {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 10px 0;
+    }
+    #news .news-item .news-modal {
+        width: 90%;
+        padding: 10px;
+    }
+    #news .news-item .news-modal .modal-head {
+        padding-bottom: 10px;
+    }
+    #news .news-item .news-modal .modal-head h5 {
+        font-size: 14px;
+    }
+    #news .news-item .news-modal img {
+        border-radius: 8px;
+        margin: 12px 0;
+    }
+    #news .news-item .news-modal .modal-text .modal-time {
+        font-size: 14px;
+        padding-bottom: 7px;
+    }
+    #news .news-item .news-modal .modal-text p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #news .news-item .news-modal .modal-text p span {
+        font-size: 18px;
+    }
+    /* =================
+    E-Commerce Page CSS
+    ====================*/
+    .e-commerce-banner {
+        text-align: center;
+        padding: 50px 0;
+    }
+    .e-commerce-banner h2 {
+        font-size: 30px;
+        padding-bottom: 8px;
+    }
+    .e-commerce-banner p {
+        font-size: 15px;
+    }
+    #e-commerce-q .first-sec {
+        flex-direction: column;
+    }
+    #e-commerce-q h4 {
+        font-size: 25px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+    #e-commerce-q p {
+        font-weight: 200;
+        line-height: 28px;
+    }
+    #api .api-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    #api .api-options {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    #api .api-options .opt-item h3 {
+        font-size: 25px;
+        line-height: 48px;
+    }
+    #api .api-options .opt-item p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+    }
+    #api .api-item p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 32px;
+    }
+    /* =================
+    Contact Page CSS
+    ====================*/
+    #contact {
+        padding: 40px 10px;
+        text-align: center;
+    }
+    #contact iframe {
+        height: 250px;
+    }
+    #contact h2 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    #contact p {
+        font-size: 14px;
+        padding-bottom: 28px;
+    }
+    #contact .contact-sec {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+        padding: 8px;
+    }
+    .contact-details {
+        padding-top: 30px;
+    }
+}

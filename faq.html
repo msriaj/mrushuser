@@ -17,13 +17,17 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         />
+        <!-- Slick Slider CSS CDN -->
+        <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
         <!-- Custom CSS File -->
         <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/style_2.css" />
         <!-- Responsive CSS File -->
+        <link rel="stylesheet" href="assets/css/responsive_2.css" />
         <link rel="stylesheet" href="assets/css/responsive.css" />
         <!--==================================================================-->
 
-        <title>RUSH 2.0- Payment</title>
+        <title>RUSH 2.0- FAQ</title>
     </head>
     <body>
         <!-- Header Section Start -->
@@ -57,60 +61,85 @@
         </header>
         <!-- ||Header Section End|| -->
 
-        <!-- Sign In Section Start -->
-        <section id="payment">
-            <div class="container">
-                <div class="text_center">
-                    <h2>Payment Preferences</h2>
-                </div>
-                <form class="payment_form">
-                    <div class="pay_input">
-                        <label for="">Name on the Card</label>
-                        <input type="text" name="" id="" />
-                    </div>
-                    <div class="pay_input">
-                        <label for="">Card Number</label>
-                        <div class="pay_flex">
-                            <input type="text" name="" id="" />
-                            <img src="assets/images/visa.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="pay_input">
-                        <label for="">Expiration Date</label>
-                        <div class="ps_con">
-                            <div>
-                                <select class="pay_selection">
-                                    <option value="0">
-                                        -- Select Month --
-                                    </option>
-                                    <option value="2">
-                                        -- Select Month --
-                                    </option>
-                                    <option value="1">
-                                        -- Select Month --
-                                    </option>
-                                </select>
-                            </div>
-                            <div>
-                                <select class="pay_selection">
-                                    <option value="0">-- Select Year --</option>
-                                    <option value="2">-- Select Year --</option>
-                                    <option value="1">-- Select Year --</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pay_input">
-                        <label for="">CVV</label>
-                        <input type="text" name="" id="" />
-                    </div>
-                    <div class="orders_btn">
-                        <button><a href="wallet.html">Save</a></button>
-                    </div>
-                </form>
+        <!-- faq Section Start -->
+        <section id="faq" class="tac">
+            <div class="faq-heading">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <button class="accordion">
+                Q1. Payment – Do I have to store my credit card details on
+                registration?
+            </button>
+            <div class="panel">
+                <p>
+                    No. You can elect to store your credit card details with
+                    PayU’s secure payment gateway, but this is optionally for
+                    your convenience. This allows for quicker payment without
+                    having to re-enter your details. Rush will never request or
+                    store your credit card details.
+                </p>
+            </div>
+
+            <button class="accordion">
+                Q2. Payment - How do I receive my refund?
+            </button>
+            <div class="panel">
+                <p>
+                    Should a refund be due to you, we can reimburse you to the
+                    bank account (7th of the month), or credit card (up to 10
+                    days to reflect) from which you paid for your order. We can
+                    also credit your wallet (within 24 hours), or add a voucher
+                    to your account (within 24 hours).
+                </p>
+            </div>
+
+            <button class="accordion">
+                Q3. Registration - Why did I not receive my email for
+                verification?
+            </button>
+            <div class="panel">
+                <p>
+                    Please check in your junk mail or spam folder, make sure the
+                    email address you have entered is correct, or contact
+                    support for assistance.
+                </p>
+            </div>
+
+            <button class="accordion">
+                Q4. Registration - Do you need my ID and Credit card number to
+                register?
+            </button>
+            <div class="panel">
+                <p>
+                    No, you are not required to provide this information. If
+                    paying by credit card, you will only enter this at checkout
+                    directly with the secure payment gateway.
+                </p>
+            </div>
+
+            <button class="accordion">
+                Q5. Courier Services - Why is the Budget service more expensive
+                than the Overnight service?
+            </button>
+            <div class="panel">
+                <p>
+                    The minimum charge for the Budget service includes parcels
+                    up to 10kg, where other services minimum charge only
+                    includes 2kg of weight.
+                </p>
+            </div>
+
+            <button class="accordion">
+                Q6. Courier Service - When do I use Budget?
+            </button>
+            <div class="panel">
+                <p>
+                    For large or heavy parcels and for deliveries that are not
+                    urgent.
+                </p>
             </div>
         </section>
-        <!-- ||Sign In Section End|| -->
+        <!-- ||faq Section End|| -->
 
         <!-- Footer Section Start -->
         <footer>
@@ -125,7 +154,7 @@
                         <h4>Company</h4>
                         <div class="footer_navigation">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="">Home</a></li>
                                 <li><a href="sign_in.html">Sign In</a></li>
                                 <li><a href="register.html">Register</a></li>
                                 <li><a href="profile.html">My Profile</a></li>
@@ -223,5 +252,17 @@
             </div>
         </footer>
         <!-- ||Footer Section End|| -->
+
+        <!-- jQury Section Start -->
+        <!--=========================================================-->
+        <!--jQury main file-->
+        <script
+            type="text/javascript"
+            src="assets/js/jquery-1.12.4.min.js"
+        ></script>
+        <!--custom jQury file-->
+        <script type="text/javascript" src="assets/js/app_2.js"></script>
+        <!--=========================================================-->
+        <!-- ||jQury Section End|| -->
     </body>
 </html>

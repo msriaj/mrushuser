@@ -17,13 +17,17 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         />
+        <!-- Slick Slider CSS CDN -->
+        <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
         <!-- Custom CSS File -->
         <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/style_2.css" />
         <!-- Responsive CSS File -->
+        <link rel="stylesheet" href="assets/css/responsive_2.css" />
         <link rel="stylesheet" href="assets/css/responsive.css" />
         <!--==================================================================-->
 
-        <title>RUSH 2.0- Payment</title>
+        <title>RUSH 2.0- Contact Us</title>
     </head>
     <body>
         <!-- Header Section Start -->
@@ -57,60 +61,80 @@
         </header>
         <!-- ||Header Section End|| -->
 
-        <!-- Sign In Section Start -->
-        <section id="payment">
-            <div class="container">
-                <div class="text_center">
-                    <h2>Payment Preferences</h2>
+        <!-- Contact Section Start -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                We strive to deliver the highest quality customer support.
+                Please don’t hesitate to contact us, we would love to hear from
+                you. <br />Our Support Centre operating hours are: Monday to
+                Friday 8am - 5pm
+            </p>
+            <div class="contact-sec">
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7380.846903492171!2d91.79655019999998!3d22.33763440000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1682250611079!5m2!1sen!2sbd"
+                        width="100%"
+                        height="100%"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
                 </div>
-                <form class="payment_form">
-                    <div class="pay_input">
-                        <label for="">Name on the Card</label>
-                        <input type="text" name="" id="" />
-                    </div>
-                    <div class="pay_input">
-                        <label for="">Card Number</label>
-                        <div class="pay_flex">
-                            <input type="text" name="" id="" />
-                            <img src="assets/images/visa.png" alt="" />
+                <div class="con-form">
+                    <form>
+                        <div class="con-form-data">
+                            <label for="">Full Name</label>
+                            <input type="text" />
                         </div>
-                    </div>
-                    <div class="pay_input">
-                        <label for="">Expiration Date</label>
-                        <div class="ps_con">
-                            <div>
-                                <select class="pay_selection">
-                                    <option value="0">
-                                        -- Select Month --
-                                    </option>
-                                    <option value="2">
-                                        -- Select Month --
-                                    </option>
-                                    <option value="1">
-                                        -- Select Month --
-                                    </option>
-                                </select>
-                            </div>
-                            <div>
-                                <select class="pay_selection">
-                                    <option value="0">-- Select Year --</option>
-                                    <option value="2">-- Select Year --</option>
-                                    <option value="1">-- Select Year --</option>
-                                </select>
-                            </div>
+                        <div class="con-form-data">
+                            <label for="">Email Address</label>
+                            <input type="email" />
                         </div>
+                        <div class="con-form-data">
+                            <label for="">Contact Number</label>
+                            <input type="number" />
+                        </div>
+                        <div class="con-form-data">
+                            <label for="">Message</label>
+                            <textarea name="" id=""></textarea>
+                        </div>
+                        <button>Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="contact-details">
+                <div class="contact-details-item">
+                    <h6>Rush South Africa (Pty) Ltd.</h6>
+
+                    <div class="con-num">
+                        <a href="tel:087 057 3900"
+                            ><i class="fa-solid fa-phone"></i> 087 057
+                            3900sds</a
+                        >
+                        <a href="tel:0104440002"
+                            ><i class="fa-solid fa-phone"></i> 010 444 0002</a
+                        >
+                        <a href="mailto: support@rush.co.za"
+                            ><i class="fa-solid fa-envelope"></i>
+                            support@rush.co.za</a
+                        >
                     </div>
-                    <div class="pay_input">
-                        <label for="">CVV</label>
-                        <input type="text" name="" id="" />
-                    </div>
-                    <div class="orders_btn">
-                        <button><a href="wallet.html">Save</a></button>
-                    </div>
-                </form>
+                </div>
+                <div class="contact-details-item">
+                    <h6>Physical address :</h6>
+
+                    <p>
+                        Suite 102 & 103, 1st Floor, Design Quarter Cnr William
+                        Nicol & <br class="mobile-hide" />Leslie Road East
+                        Fourways, Johannesburg, South Africa
+                    </p>
+                </div>
             </div>
         </section>
-        <!-- ||Sign In Section End|| -->
+        <!-- ||Contact Section End|| -->
 
         <!-- Footer Section Start -->
         <footer>
@@ -125,7 +149,7 @@
                         <h4>Company</h4>
                         <div class="footer_navigation">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="">Home</a></li>
                                 <li><a href="sign_in.html">Sign In</a></li>
                                 <li><a href="register.html">Register</a></li>
                                 <li><a href="profile.html">My Profile</a></li>
@@ -223,5 +247,17 @@
             </div>
         </footer>
         <!-- ||Footer Section End|| -->
+
+        <!-- jQury Section Start -->
+        <!--=========================================================-->
+        <!--jQury main file-->
+        <script
+            type="text/javascript"
+            src="assets/js/jquery-1.12.4.min.js"
+        ></script>
+        <!--custom jQury file-->
+        <script type="text/javascript" src="assets/js/app_2.js"></script>
+        <!--=========================================================-->
+        <!-- ||jQury Section End|| -->
     </body>
 </html>
