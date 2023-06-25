@@ -346,5 +346,24 @@
         border-radius: 10px;
         gap: 10px;
     }
+    .resed .resed_item {
+        font-size: 15px;
+    }
+    .resed .resed_item h6 {
+        font-size: 15px;
+    }
     /* ||Payment Responsive Css End|| */
+
+    /* Modal Responsive Css Start */
+    .modal,
+    .modal_two {
+        width: 90%;
+        padding: 20px;
+        margin-top: 90px;
+    }
+    .modal,
+    .modal_two h2 {
+        font-size: 21px;
+    }
+    /* ||Modal Responsive Css End|| */
 }
