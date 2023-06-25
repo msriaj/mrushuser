@@ -72,8 +72,27 @@
     }
     input {
         width: 92% !important;
-        padding: 10px 5px 10px 10px;
-        font-size: 18px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    label {
+        font-size: 15px;
+    }
+    select {
+        padding: 10px 15px;
+        border-radius: 5px;
+        color: var(--regular-f-color) !important;
+        font-size: 15px;
+        text-align: center;
+        -webkit-appearance: none;
+    }
+    .common_btn {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .orders_btn a {
+        padding: 10px 15px;
+        font-size: 15px;
     }
     /* Header Responsive Css Start */
     header {
@@ -130,12 +149,12 @@
         font-size: 15px;
     }
     footer .input_fild .email {
-        width: 70% !important;
+        width: 80% !important;
         padding: 10px;
         font-size: 14px;
     }
     footer .input_fild .submit {
-        padding: 10px 20px;
+        padding: 10px;
         font-size: 15px;
     }
     footer .payment {
@@ -215,6 +234,29 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 25px;
+    }
+    .malty_form .upgrade {
+        padding: 15px;
+        border-radius: 5px;
+    }
+    .malty_form .upgrade h5 {
+        font-size: 15px;
+    }
+    .malty_form .checked {
+        display: flex;
+        gap: 4px;
+    }
+    .malty_form .checked input,
+    .wallet_radio {
+        width: 30px !important;
+    }
+    .malty_form .submit {
+        width: 100% !important;
+        padding-left: 30px;
+        padding-right: 30px;
+        background: var(--focus-color);
+        color: var(--prime-color);
+        border: var(--focus-color) 1px solid;
     }
     /* ||Profile Responsive Css End|| */
 }
