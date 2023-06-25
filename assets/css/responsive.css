@@ -375,5 +375,17 @@
     .modal_two h2 {
         font-size: 21px;
     }
+    .total_modal {
+        inset: 0;
+        padding: 10px;
+    }
+    .total_modal .total_modal_content {
+        padding: 20px;
+    }
+    .total_modal .total_summary {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        font-size: 15px;
+    }
     /* ||Modal Responsive Css End|| */
 }
