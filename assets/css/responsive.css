@@ -332,4 +332,19 @@
         display: none;
     }
     /* ||order Css End|| */
+
+    /* Payment Responsive Css Start */
+    #payment {
+        padding: 50px 0;
+    }
+    #payment h2 {
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+    #payment .payment_form {
+        padding: 20px 15px;
+        border-radius: 10px;
+        gap: 10px;
+    }
+    /* ||Payment Responsive Css End|| */
 }
