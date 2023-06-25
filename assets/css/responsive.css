@@ -3,11 +3,6 @@
         font-size: 16px;
         padding: 6px 15px;
     }
-    input {
-        width: 92% !important;
-        padding: 10px 5px 10px 10px;
-        font-size: 18px;
-    }
 
     /* Header Responsive Css Start */
     header #nav_bar ul {
@@ -75,7 +70,11 @@
     .container {
         padding: 0 15px;
     }
-
+    input {
+        width: 92% !important;
+        padding: 10px 5px 10px 10px;
+        font-size: 18px;
+    }
     /* Header Responsive Css Start */
     header {
         padding: 0 15px;
