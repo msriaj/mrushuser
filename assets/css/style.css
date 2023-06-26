@@ -865,6 +865,7 @@ Summary Page Css Start
     padding: 50px 30px;
     border-radius: 10px;
     margin-top: 90px;
+    z-index: 99999999;
 }
 .modal .modal_head,
 .modal_two .modal_head {
@@ -898,6 +899,7 @@ Total Modal Page Css Start
     inset: 0;
     background: rgba(102, 102, 102, 0.9);
     padding: 60px;
+    z-index: 9999999;
 }
 .total_modal .total_modal_content {
     background: var(--prime-color);
