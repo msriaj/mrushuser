@@ -1,11 +1,8 @@
 $(document).ready(function () {
     //nav bar
-    // $(".toggol").on("click", function () {
-    //     $(".nav-bar ").toggleClass("active");
-    // });
-    // $(".toggol").on("click", function () {
-    //     $(".toggol").toggleClass("activeted");
-    // });
+    $(".on_click").on("click", function () {
+        $(".side_nav").toggleClass("on");
+    });
 
     $(".add_modal").on("click", function () {
         $(".modal").addClass("activet");

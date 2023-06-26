@@ -81,67 +81,6 @@ button {
     background-size: cover;
     z-index: -1;
 }
-
-/* Nav Section */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-}
-nav .logo img {
-    width: 161px;
-}
-nav .menu li a {
-    color: var(--prime-color);
-    font-size: 19px;
-    font-weight: 400;
-    margin: 0 30px;
-    transition: var(--first-transition);
-}
-nav .menu li a:hover {
-    color: var(--focus-color);
-}
-nav .btn-1 {
-    background: var(--prime-color);
-    border: solid 1px var(--prime-color);
-    padding: 15px 30px;
-    border-radius: 9px;
-
-    margin-right: 37px;
-    box-shadow: 0;
-    transition: var(--first-transition);
-}
-nav .btn-2 {
-    background: var(--focus-color);
-    border: solid 1px var(--prime-color);
-    padding: 15px 30px;
-    border-radius: 9px;
-    font-size: 16px;
-    font-weight: 500;
-    transition: var(--first-transition);
-}
-nav .btn-1 a {
-    color: var(--focus-color);
-    font-size: 16px;
-    font-weight: 500;
-}
-nav .btn-2 a {
-    color: var(--prime-color);
-    font-size: 16px;
-    font-weight: 500;
-}
-nav .btn-1:hover,
-nav .btn-2:hover {
-    box-shadow: 0px 3px 14px 0px rgba(247, 0, 0, 0.55);
-}
-nav .btn-3 img {
-    width: 52px;
-    margin-left: 92px;
-}
-#mobile-nav {
-    display: none;
-}
 /* Banner Section */
 #banner {
     display: flex;
@@ -349,6 +288,7 @@ nav .btn-3 img {
 }
 #package .packages .slider_dots li {
     margin: 0 3px;
+    display: inline-block;
 }
 #package .packages .slider_dots li button {
     border: 1px solid var(--secondary-font-color);
